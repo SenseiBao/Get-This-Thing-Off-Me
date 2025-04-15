@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "a32519f4-d1b5-40a5-b79b-0cca3c2364f9",
+  "name": "Tiles_FinalLayout",
+  "symbol": "tileset_tiles_finallayout",
+  "width": 28,
+  "height": 44,
+  "imageWidth": 224,
+  "imageHeight": 352,
+  "filename": "Tiles_FinalLayout.png"
+}
