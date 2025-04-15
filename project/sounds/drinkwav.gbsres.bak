@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "e4f2252b-9ff5-4ad1-8eac-8f338f9f14a9",
+  "name": "Drink.wav",
+  "symbol": "sound_drink_wav",
+  "filename": "Drink.wav",
+  "type": "wav"
+}

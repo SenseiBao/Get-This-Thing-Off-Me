@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "e922c7bd-f6c1-46de-88e3-e2814fac9bfe",
+  "name": "Bump.wav",
+  "symbol": "sound_bump_wav",
+  "filename": "Bump.wav",
+  "type": "wav"
+}
