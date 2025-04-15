@@ -1,8 +1,0 @@
-{
-  "_resourceType": "sound",
-  "id": "30a3e12f-058b-4287-a4a3-adfb621d8af3",
-  "name": "Cancel.wav",
-  "symbol": "sound_cancel_wav",
-  "filename": "Cancel.wav",
-  "type": "wav"
-}
