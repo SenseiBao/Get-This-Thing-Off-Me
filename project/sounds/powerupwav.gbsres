@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "9ca6d156-5cb9-4877-9fcc-ebec84d55561",
+  "name": "Powerup.wav",
+  "symbol": "sound_powerup_wav",
+  "filename": "Powerup.wav",
+  "type": "wav"
+}

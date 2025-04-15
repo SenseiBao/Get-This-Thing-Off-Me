@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "5d55cbfe-34bd-4d6b-8d6a-e3fe003dac97",
+  "name": "Door_Slow_Open.wav",
+  "symbol": "sound_door_slow_open_wav",
+  "filename": "Door_Slow_Open.wav",
+  "type": "wav"
+}

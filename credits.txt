@@ -1,0 +1,4 @@
+Player sprite - edited version of GB studio default template
+Sound effects - https://coffeevalenbat.itch.io/sweet-sounds-sfx-pack
+NPC sprites - https://xthekendrick.itch.io/characters-sprites-for-gameboy-gb-studio/devlog/863858/gb-characters-v2-updates
+Tilesets - https://the-pixel-nook.itch.io/gb-studio-buildings
