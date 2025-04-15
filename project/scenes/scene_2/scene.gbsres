@@ -1,0 +1,31 @@
+{
+  "_resourceType": "scene",
+  "id": "9d175d7e-33dc-474d-9952-22e3d7a00182",
+  "_index": 1,
+  "name": "Scene 2",
+  "backgroundId": "d43a0cd2-690a-4cf0-b772-bb2a15820863",
+  "tilesetId": "",
+  "width": 40,
+  "height": 36,
+  "type": "TOPDOWN",
+  "paletteIds": [
+    "",
+    ""
+  ],
+  "spritePaletteIds": [
+    null,
+    null,
+    "",
+    "dmg"
+  ],
+  "collisions": "0f1a+004+0f24+004+0fc+0024+0f4+0021+0f2+00!0f4+002+0f2+0019+0f2+002+0f2+00!0f4+002+0f2+0019+0f2+002+0f2+00!0f4+002+0f2+0019+0f2+002+0f2+00!0f4+002+0f2+0019+0f2+005+0f4+009+0f4+0011+0f5+00!0f4+007+0f8+00d+0fc+007+0f8+00d+0fc+007+0f8+003+0f2+008+0fc+005+0fc+00!0f2+008+0fc+005+0fc+00!0f2+008+0fc+005+0fc+00!0f2+008+0fc+0024+0f2+00a0+0f2+001d+0f2+005+0f4+001d+0f2+005+0f4+00f+0f4+00a+0f2+005+0f4+00c+0f7+00a+0f2+005+0f4+00c+0f7+002+0f2+00a+0f2+00!0f4+00c+0f8+00!0f2+00a+0f2+00!0f4+00a+0f2+00!0f7+00!0f2+00a+0f2+00!0f4+00a+0f2+00!0f7+00!0f2+00a+0f2+00!0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f4+0024+0f1c+004+0f24+004+0fa+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_2",
+  "x": 574,
+  "y": 120.19999694824219,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": [],
+  "labelColor": "red"
+}
