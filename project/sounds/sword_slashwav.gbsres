@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "cfc5302b-cb5d-4000-887c-8f2d33f04f71",
+  "name": "Sword_Slash.wav",
+  "symbol": "sound_sword_slash_wav",
+  "filename": "Sword_Slash.wav",
+  "type": "wav"
+}

@@ -1,0 +1,54 @@
+{
+    "Map/SizeTest": {
+        "height": 4300,
+        "width": 2
+    },
+    "activeFile": "Tiles_FinalLayout.tsx",
+    "expandedProjectPaths": [
+        "assets",
+        "."
+    ],
+    "fileStates": {
+        "Tiles_FinalLayout.tsx": {
+            "scaleInDock": 3,
+            "scaleInEditor": 3
+        },
+        "buildings.tsx": {
+            "scaleInDock": 1
+        },
+        "grass.tsx": {
+            "scaleInDock": 5.5,
+            "scaleInEditor": 23
+        },
+        "map.tmx": {
+            "scale": 3,
+            "selectedLayer": 2,
+            "viewCenter": {
+                "x": 256.1666666666667,
+                "y": 142.5
+            }
+        }
+    },
+    "last.imagePath": "C:/Users/minec/OneDrive/Documents/vampire/assets/tilesets",
+    "map.height": 288,
+    "map.lastUsedFormat": "tmx",
+    "map.tileHeight": 8,
+    "map.tileWidth": 8,
+    "map.width": 320,
+    "openFiles": [
+        "map.tmx",
+        "grass.tsx",
+        "Tiles_FinalLayout.tsx"
+    ],
+    "project": "background.tiled-project",
+    "recentFiles": [
+        "map.tmx",
+        "grass.tsx",
+        "Tiles_FinalLayout.tsx"
+    ],
+    "tileset.lastUsedFormat": "tsx",
+    "tileset.tileSize": {
+        "height": 8,
+        "width": 8
+    }
+}

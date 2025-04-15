@@ -1,0 +1,8 @@
+{
+  "_resourceType": "sound",
+  "id": "50a31170-a3b8-4a66-8af9-cd31dc021124",
+  "name": "Crunch.wav",
+  "symbol": "sound_crunch_wav",
+  "filename": "Crunch.wav",
+  "type": "wav"
+}
