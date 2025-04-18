@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="right-down" width="40" height="36" tilewidth="8" tileheight="8" infinite="0" nextlayerid="6" nextobjectid="1">
- <tileset firstgid="1" source="../grass.tsx"/>
- <tileset firstgid="5" source="../Tiles_FinalLayout.tsx"/>
+ <tileset firstgid="1" source="../TSX files/grass.tsx"/>
+ <tileset firstgid="5" source="../TSX files/Tiles_FinalLayout.tsx"/>
  <layer id="1" name="Tile Layer 1" width="40" height="36">
   <data encoding="csv">
 4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,
