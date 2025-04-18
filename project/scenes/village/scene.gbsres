@@ -3,27 +3,66 @@
   "id": "9d175d7e-33dc-474d-9952-22e3d7a00182",
   "_index": 0,
   "type": "TOPDOWN",
-  "name": "Scene 2",
+  "name": "Village",
   "symbol": "scene_2",
   "labelColor": "red",
-  "x": 574,
-  "y": 120.19999694824219,
+  "x": 200,
+  "y": 88,
   "width": 40,
   "height": 36,
   "backgroundId": "d43a0cd2-690a-4cf0-b772-bb2a15820863",
   "tilesetId": "",
   "paletteIds": [
-    "",
-    ""
+    "default-bg-2",
+    "dmg"
   ],
   "spritePaletteIds": [
     "",
-    "",
-    "",
+    "dmg",
+    "default-bg-5",
     "dmg"
   ],
   "autoFadeSpeed": 1,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "4d1352d8-c08b-40ad-93fa-67eb8e91a7a7"
+            },
+            "id": "b43d9ad0-3474-4326-aa08-e09c3033335b"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "8890a00f-7f80-440d-ba98-9a0bcedc0e80"
+            },
+            "id": "0b9e1705-d3bf-417a-b882-76717a59b4b7"
+          }
+        ],
+        "false": []
+      },
+      "id": "73618800-9b61-451f-9393-f6dd8d262d62"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

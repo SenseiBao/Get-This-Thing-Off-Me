@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "862898f0-ef08-48a5-959b-6607c2c9e167",
+  "name": "maze",
+  "symbol": "bg_maze",
+  "width": 40,
+  "height": 36,
+  "imageWidth": 320,
+  "imageHeight": 288,
+  "filename": "maze.png",
+  "tileColors": ""
+}

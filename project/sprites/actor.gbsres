@@ -12,42 +12,15 @@
     {
       "id": "4d1efdcf-c6d6-4b25-ab89-008b990697ac",
       "name": "",
-      "animationType": "multi",
-      "flipLeft": true,
+      "animationType": "fixed",
+      "flipLeft": false,
       "animations": [
         {
           "id": "f0e27b77-101b-4c2f-bf52-fda0ae13dae4",
           "frames": [
             {
               "id": "c905496b-7d90-4107-9728-767b51d9b563",
-              "tiles": [
-                {
-                  "id": "d51763df-1353-4da7-9cf7-03fbada9edd2",
-                  "x": 0,
-                  "y": 0,
-                  "sliceX": 32,
-                  "sliceY": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "palette": 0,
-                  "paletteIndex": 0,
-                  "objPalette": "OBP0",
-                  "priority": false
-                },
-                {
-                  "id": "c7f96290-0943-4855-a706-f198accdca3f",
-                  "x": 8,
-                  "y": 0,
-                  "sliceX": 40,
-                  "sliceY": 0,
-                  "flipX": false,
-                  "flipY": false,
-                  "palette": 0,
-                  "paletteIndex": 0,
-                  "objPalette": "OBP0",
-                  "priority": false
-                }
-              ]
+              "tiles": []
             }
           ]
         },
@@ -171,7 +144,7 @@
       ]
     }
   ],
-  "numTiles": 5,
+  "numTiles": 3,
   "canvasWidth": 16,
   "canvasHeight": 16,
   "boundsX": 0,

@@ -9,5 +9,5 @@
   "imageHeight": 288,
   "filename": "map.png",
   "tileColors": "005a0+",
-  "autoColor": true
+  "autoColor": false
 }
