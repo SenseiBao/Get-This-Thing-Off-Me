@@ -45,10 +45,10 @@
       "command": "EVENT_MENU",
       "args": {
         "variable": "1",
-        "items": 2,
+        "items": 3,
         "option1": "Pick up item?",
-        "option2": "Cancel",
-        "option3": "",
+        "option2": "Take a sip",
+        "option3": "Cancel",
         "option4": "",
         "option5": "",
         "option6": "",
@@ -159,7 +159,33 @@
             "id": "32423dad-6888-4d3e-90ca-08009563b0fd"
           }
         ],
-        "true1": [],
+        "true1": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "This is NOT Red40"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "12adcc9e-f720-4b7f-aa9e-0618bd96f4db"
+          }
+        ],
         "true2": [],
         "true3": [],
         "true4": [],
