@@ -2,6 +2,11 @@
   "_resourceType": "variables",
   "variables": [
     {
+      "id": "1",
+      "name": "Goblet_picked_up",
+      "symbol": "var_goblet_picked_up"
+    },
+    {
       "id": "8db6ec10-31a1-4df9-a87b-d1da66dddb1c__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
@@ -10,11 +15,6 @@
       "id": "7777bcf8-cb71-49a9-8ca9-273498df3d87__L3",
       "name": "local 3",
       "symbol": "var_local_3"
-    },
-    {
-      "id": "1",
-      "name": "Goblet_picked_up",
-      "symbol": "var_goblet_picked_up"
     },
     {
       "id": "8db6ec10-31a1-4df9-a87b-d1da66dddb1c__L1",
