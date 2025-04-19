@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "ee8a2405-cf02-4dd6-9733-1a4de37552ec",
+  "name": "forest_opening_map",
+  "symbol": "bg_forest_opening_map",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256,
+  "filename": "forest_opening_map.png",
+  "tileColors": ""
+}

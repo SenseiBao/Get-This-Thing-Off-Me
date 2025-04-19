@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "bf6421ea-732f-4406-ac4f-02c1656df272",
+  "_index": 4,
+  "name": "Scene 5",
+  "backgroundId": "ee8a2405-cf02-4dd6-9733-1a4de37552ec",
+  "tilesetId": "",
+  "width": 32,
+  "height": 32,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_5",
+  "x": 1008,
+  "y": 560,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
