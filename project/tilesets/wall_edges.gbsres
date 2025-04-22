@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "a3f9172f-8aaf-4371-ad26-a1802e1872a5",
+  "name": "Wall_Edges",
+  "symbol": "tileset_wall_edges",
+  "width": 4,
+  "height": 1,
+  "imageWidth": 32,
+  "imageHeight": 8,
+  "filename": "Wall_Edges.png"
+}

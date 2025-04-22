@@ -2,19 +2,21 @@
   "_resourceType": "scene",
   "id": "e2c2bc00-5186-4861-aa02-6ea80c58d6db",
   "_index": 5,
-  "name": "Portrait",
-  "backgroundId": "6aaa2f9d-4720-47ea-8c28-d27519406db5",
-  "tilesetId": "",
-  "width": 20,
-  "height": 18,
   "type": "TOPDOWN",
-  "paletteIds": [],
-  "spritePaletteIds": [],
-  "collisions": "00168+",
-  "autoFadeSpeed": 1,
+  "name": "Portrait",
   "symbol": "scene_6",
   "x": 528,
   "y": 400,
+  "width": 20,
+  "height": 18,
+  "backgroundId": "6aaa2f9d-4720-47ea-8c28-d27519406db5",
+  "tilesetId": "",
+  "paletteIds": [
+    "",
+    ""
+  ],
+  "spritePaletteIds": [],
+  "autoFadeSpeed": 1,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",
@@ -128,5 +130,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "collisions": "00168+"
 }
