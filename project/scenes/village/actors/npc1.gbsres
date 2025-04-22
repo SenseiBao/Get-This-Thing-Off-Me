@@ -20,10 +20,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Fisher: I'm weari-\nng a hat to hide \nthese dumb fursuit\n ears."
+          "I'm weari-\nng a hat to \nhide these dumb\nfursui tears."
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -81,11 +81,13 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "information"
+                "I hear there's a\ngoblet filled\nwith blood,",
+                "located south of\nthe village. \nIt used to \nbelong to a\nvampire.",
+                "no one can solve\nthe maze to get\nit though."
               ],
               "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
+              "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+              "minHeight": 5,
               "maxHeight": 7,
               "textX": 1,
               "textY": 1,
@@ -101,6 +103,97 @@
               "closeDelayFrames": 30
             },
             "id": "cd184b3e-1712-4392-8763-02b2f5faf025"
+          },
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "L0",
+              "items": 2,
+              "option1": "It's just red40",
+              "option2": "thanks",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": true,
+              "layout": "dialogue"
+            },
+            "id": "28d6316d-e59a-425b-8bd1-be84a740941b"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L0"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Judas, I think \nyou're running \nlow on tinfoil."
+                    ],
+                    "__section": "text",
+                    "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+                    "minHeight": 5,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "14f3e8b3-f16a-4925-97e2-4b0bdeb5658f"
+                }
+              ],
+              "false": []
+            },
+            "id": "0f80d99a-85df-4dae-a930-65874b13af1c"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Take care."
+              ],
+              "__section": "text",
+              "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "d2a7293c-955b-42f4-8458-277189236afc"
           }
         ],
         "false": []
@@ -114,7 +207,7 @@
           "Be fr"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,

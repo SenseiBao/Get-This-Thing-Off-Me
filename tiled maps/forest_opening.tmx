@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map version="1.10" tiledversion="1.11.2" orientation="orthogonal" renderorder="left-down" width="32" height="32" tilewidth="8" tileheight="8" infinite="0" nextlayerid="7" nextobjectid="1">
  <tileset firstgid="1" source="../TSX files/Tiles_FinalLayout.tsx"/>
- <tileset firstgid="1233" source="../../../Archive/GameTutorialDocs/tsx/BitsAndBobs(no_scale).tsx"/>
+ <tileset firstgid="1233" source="../TSX files/Indoors_BitsAndBobs(no_scale).tsx"/>
  <layer id="1" name="Tile Layer 1" width="32" height="32">
   <data encoding="csv">
 772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,772,

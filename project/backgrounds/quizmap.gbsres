@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "92c28986-95dd-4966-b550-9237686040cd",
+  "name": "quizMap",
+  "symbol": "bg_quizmap",
+  "width": 32,
+  "height": 32,
+  "imageWidth": 256,
+  "imageHeight": 256,
+  "filename": "quizMap.png",
+  "tileColors": ""
+}

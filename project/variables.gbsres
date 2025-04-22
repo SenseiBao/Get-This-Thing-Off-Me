@@ -8,8 +8,8 @@
     },
     {
       "id": "8db6ec10-31a1-4df9-a87b-d1da66dddb1c__L0",
-      "name": "Local 0",
-      "symbol": "var_local_0"
+      "name": "Dialogue2 NPC1",
+      "symbol": "var_dialogue2_npc1"
     },
     {
       "id": "7777bcf8-cb71-49a9-8ca9-273498df3d87__L3",
@@ -20,6 +20,16 @@
       "id": "8db6ec10-31a1-4df9-a87b-d1da66dddb1c__L1",
       "name": "Dialogue option NPC1",
       "symbol": "var_dialogue_option_npc1"
+    },
+    {
+      "id": "1b9e0319-4afd-4f0e-beaf-4d35b5b92cdc__L0",
+      "name": "DialogueGrave",
+      "symbol": "var_dialoguegrave"
+    },
+    {
+      "id": "42df9579-3342-4d77-afec-d96b11be50a6__L0",
+      "name": "DialogueGrave",
+      "symbol": "var_dialoguegrave_0"
     }
   ]
 }

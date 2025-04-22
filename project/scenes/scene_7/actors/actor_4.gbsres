@@ -1,0 +1,78 @@
+{
+  "_resourceType": "actor",
+  "id": "823731c4-983c-4476-bafa-a73881394003",
+  "name": "",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "a6740eb3-44d9-4eb8-b423-66aaad634d8f",
+  "prefabId": "",
+  "direction": "down",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_9",
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Yo.\n"
+        ],
+        "__section": "text",
+        "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "9091e31b-d877-4fb1-a4c8-87b02fc2f357"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "A talking bat!?"
+        ],
+        "__section": "text",
+        "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "a220c520-37f4-44fa-b699-659a664d5225"
+    }
+  ],
+  "startScript": [],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 19,
+  "y": 19,
+  "_index": 3
+}
