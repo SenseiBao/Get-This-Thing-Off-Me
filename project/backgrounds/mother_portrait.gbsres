@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "6aaa2f9d-4720-47ea-8c28-d27519406db5",
+  "name": "Mother_Portrait",
+  "symbol": "bg_mother_portrait",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "Mother_Portrait.png",
+  "tileColors": ""
+}
