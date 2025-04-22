@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "0c3c2411-ebbf-4db8-98b1-5c45937afa08",
   "_index": 3,
-  "name": "Intro Background",
+  "name": "Scene 4",
   "backgroundId": "c52d5212-07e1-4f33-baa2-5cd28d232844",
   "tilesetId": "",
   "width": 20,
@@ -13,8 +13,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 2,
   "symbol": "scene_4",
-  "x": 248,
-  "y": 224,
+  "x": 524.6000061035156,
+  "y": 178.8000030517578,
   "script": [
     {
       "command": "EVENT_ACTOR_HIDE",

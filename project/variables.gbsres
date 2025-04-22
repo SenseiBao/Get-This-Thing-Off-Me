@@ -30,6 +30,41 @@
       "id": "42df9579-3342-4d77-afec-d96b11be50a6__L0",
       "name": "DialogueGrave",
       "symbol": "var_dialoguegrave_0"
+    },
+    {
+      "id": "823731c4-983c-4476-bafa-a73881394003__L0",
+      "name": "Interacted",
+      "symbol": "var_interacted"
+    },
+    {
+      "id": "823731c4-983c-4476-bafa-a73881394003__L1",
+      "name": "JokeQ1",
+      "symbol": "var_jokeq1"
+    },
+    {
+      "id": "823731c4-983c-4476-bafa-a73881394003__L2",
+      "name": "Q1",
+      "symbol": "var_q1"
+    },
+    {
+      "id": "823731c4-983c-4476-bafa-a73881394003__L3",
+      "name": "Q2",
+      "symbol": "var_q2"
+    },
+    {
+      "id": "823731c4-983c-4476-bafa-a73881394003__L4",
+      "name": "Q3",
+      "symbol": "var_q3"
+    },
+    {
+      "id": "823731c4-983c-4476-bafa-a73881394003__L5",
+      "name": "Local 5",
+      "symbol": "var_local_5"
+    },
+    {
+      "id": "2",
+      "name": "QuizDone",
+      "symbol": "var_quizdone"
     }
   ]
 }

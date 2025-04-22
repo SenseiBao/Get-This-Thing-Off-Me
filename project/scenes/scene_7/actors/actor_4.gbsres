@@ -17,10 +17,325 @@
   "symbol": "actor_9",
   "script": [
     {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "L0"
+          },
+          "valueB": {
+            "type": "expression",
+            "value": "False"
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Yo.\n"
+              ],
+              "__section": "text",
+              "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "9091e31b-d877-4fb1-a4c8-87b02fc2f357"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "holy shit are \nyou a talking \nbat!?"
+              ],
+              "__section": "text",
+              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a220c520-37f4-44fa-b699-659a664d5225"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I'm."
+              ],
+              "__section": "text",
+              "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "24539e43-529e-424b-a4ee-e510faa248f6"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I'm?",
+                "That's a heinous\nuse of a\ncontraction word",
+                "Also I must be \ntripping balls,\nto be talking\nto a bat right\nnow. "
+              ],
+              "__section": "text",
+              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "d3365a35-cb76-4508-8127-5072df75fc76"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "English is quite\nthe language \nwe've.",
+                "Anyways, I heard\nyou wanted your\nsuit taken off.",
+                "So I'm gonna \nquiz you!",
+                "(My real goal is\nto see if you're\na vampire hunter\nin disguise...)"
+              ],
+              "__section": "text",
+              "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a6e122b1-7231-4e6d-8c35-f91fb7af660e"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "L0",
+              "value": {
+                "type": "true"
+              }
+            },
+            "id": "587e4d7f-233a-47aa-abe3-cd10ad7bb798"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "A hot goth dommy\nmommy walks into\nyour house.",
+                "But she's likely\na vampire",
+                "What do you do?",
+                "Stake her with a\nwooden stake, or",
+                "stake her with\n\"your stake\""
+              ],
+              "__section": "text",
+              "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
+            },
+            "id": "c42eaacc-b8c7-4b80-af90-c8074f835240"
+          },
+          {
+            "command": "EVENT_CHOICE",
+            "args": {
+              "variable": "L1",
+              "trueText": "\"My Stake\"",
+              "falseText": "A wooden stake",
+              "__collapse": false
+            },
+            "id": "40db99b4-cc20-4ee9-abbf-20fd4a6aa3a7"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L1"
+                },
+                "valueB": {
+                  "type": "expression",
+                  "value": "False"
+                }
+              },
+              "__collapseElse": false,
+              "__collapse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Oh. Well, \nI'm just\nmessing with you",
+                      "That's not the\nreal question."
+                    ],
+                    "__section": "text",
+                    "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "e0885548-85b3-4fe1-a931-f59b35e491c5"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Erm, actually \nvampires aren’t \nreal",
+                      "But I would \nrespectfully \ninquire...",
+                      "m-m'lady, would\nyou p-partake in",
+                      "sexual staking-\ncourse with me?",
+                      "*blushes and\nlooks away* >.<"
+                    ],
+                    "__section": "text",
+                    "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "a7e5783c-93ac-44ee-a1be-d730a0f4804d"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Did you \nliterally say \n'asterisk'\nout loud?",
+                      "(Lady Carmilla's\ngonna love this\nguy...)",
+                      "Anyways, \nI'm just\nmessing with you",
+                      "That's not the\nreal question."
+                    ],
+                    "__section": "text",
+                    "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30,
+                    "__collapse": false
+                  },
+                  "id": "2672b7cc-2915-44f1-9fd6-3ce233eeb6e2"
+                }
+              ]
+            },
+            "id": "e76d20e9-cf14-4ae1-a1ab-97bbd48a9617"
+          }
+        ],
+        "false": []
+      },
+      "id": "d7dfd3b3-d56f-4577-bf70-c2113384dfb2"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Yo.\n"
+          "Okay, here's\nthe real quiz."
         ],
         "__section": "text",
         "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
@@ -37,19 +352,21 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
-      "id": "9091e31b-d877-4fb1-a4c8-87b02fc2f357"
+      "id": "1d00b1dd-1792-4958-8e0d-2b384bbc61af"
     },
     {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "A talking bat!?"
+          "In Dracula the \nUndead for the \nAtari Lynx, what\ncharacter is",
+          "breaking the \nfourth wall and\nnarrating the\ngame itself to \nthe player?"
         ],
         "__section": "text",
-        "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
-        "minHeight": 4,
+        "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+        "minHeight": 7,
         "maxHeight": 7,
         "textX": 1,
         "textY": 1,
@@ -62,9 +379,821 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
-      "id": "a220c520-37f4-44fa-b699-659a664d5225"
+      "id": "8e0ccaf9-2dae-435e-b23a-fe30e5a4e253"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "L2",
+        "items": 4,
+        "option1": "Dracula himself",
+        "option2": "Bram Stoker",
+        "option3": "Edward Cullen",
+        "option4": "Mark Sherriff",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": false,
+        "layout": "dialogue",
+        "__collapse": true
+      },
+      "id": "9031c1b1-a9da-402e-b84c-a0f36c67f59f"
+    },
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "L2",
+        "choices": 3,
+        "__collapseCase0": false,
+        "value0": 1,
+        "__collapseCase1": false,
+        "value1": 3,
+        "__collapseCase2": false,
+        "value2": 4,
+        "__collapseCase3": false,
+        "value3": 2,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Wrong! You are \nnot worthy \nof my help."
+              ],
+              "__section": "text",
+              "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "bce79827-2eb7-4ad0-835c-1736bdb74b82"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Stepanic will\nremember this..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "8e338c5b-cbc8-498f-8792-990d63492126"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Wrong! You are \nnot worthy \nof my help."
+              ],
+              "__section": "text",
+              "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c4ab7272-fce0-4673-8069-b24c04ab0903"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Stepanic will\nremember this..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "2b3f243b-2352-4e4e-b691-51e914fceb7b"
+          }
+        ],
+        "true2": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "He's a handsome\nfella, but\nyou're",
+                "Wrong! You are \nnot worthy \nof my help."
+              ],
+              "__section": "text",
+              "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "cbe41e9d-e4f2-468c-a311-a9e53dba4b18"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Sherriff will\nremember this"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "575c2a6a-9945-47fa-8133-d0f60ff7c773"
+          }
+        ],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Correct! Bram\nStoker is also\nthe author \nof Dracula!",
+                "Anyways, \nQuestion dos!"
+              ],
+              "__section": "text",
+              "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b071185d-95d5-4808-8ef2-e4f03778d496"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "What's 'dos'?"
+              ],
+              "__section": "text",
+              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "30d76ec3-ed6c-4727-b159-7284bf7bf21a"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "...",
+                "Anyways, which\nof the following\ngames included \na female \nprotagonist?"
+              ],
+              "__section": "text",
+              "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7220ddbb-3f27-42ab-a966-92707cab5a44"
+          },
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "L3",
+              "items": 4,
+              "option1": "Super Mario 64",
+              "option2": "Castlevania SotN",
+              "option3": "Vampyr",
+              "option4": "Castlevania legend",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": false,
+              "layout": "dialogue"
+            },
+            "id": "63587af1-b9e4-4bf0-ac1a-6228bc8f2a81"
+          },
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "L3",
+              "choices": 3,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Bro...\nHave you ever",
+                      "met a woman\nnamed Mario?"
+                    ],
+                    "__section": "text",
+                    "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "db944b0e-a830-46d5-8102-b0ef2615bb11"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Sherriff will\nRemember this"
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "cd3fa136-ab1c-4405-bc13-724fd63224d4"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Clearly, you \nhave\nnot been paying\nattention in ",
+                      "SLAV 2500: Bits\nand bytes"
+                    ],
+                    "__section": "text",
+                    "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "e0ab746b-0bf8-453c-9cad-a5e88b973cd5"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Stepanic will\nRemember this..."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "ffa81804-16f3-4d3e-9ec1-f7c0ca9b0bba"
+                }
+              ],
+              "true2": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "At least this\ngame hasn't\nreally been\nmentioned in\nclass.",
+                      "So it makes\nsense that \nyou got it wrong"
+                    ],
+                    "__section": "text",
+                    "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "7765e371-140b-4005-8f49-010b00b94bab"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Sherriff will\nremember this..."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "570c921e-891e-4b6b-9ea8-dc210a39e7f7"
+                }
+              ],
+              "true3": [],
+              "true4": [],
+              "true5": [],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Correct! I'm \nsure Professor\nStepanic and",
+                      "Sherriff are\ncrying tears\nof joy right\nnow. ",
+                      "Anyways\nQuestion 3!",
+                      "This one's\npurely \nhypothetical.",
+                      "Who would win\nin a fist fight?"
+                    ],
+                    "__section": "text",
+                    "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "5e650829-1b19-4a41-afd3-028cb629982c"
+                },
+                {
+                  "command": "EVENT_CHOICE",
+                  "args": {
+                    "variable": "L4",
+                    "trueText": "Prof. Stepanic",
+                    "falseText": "Prof. Sherriff"
+                  },
+                  "id": "fc77750f-e40b-4afa-a95a-fa59f11bf00a"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "variable",
+                      "value": "L4"
+                    },
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Sherriff will\nremember this..."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "e535f3c2-8ba0-43b8-b1c4-0933034d3757"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Stepanic will\nRemember this..."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "73f88586-b2d1-44c2-94a7-a158ff35cc12"
+                      }
+                    ]
+                  },
+                  "id": "3545f988-b884-466f-9fdd-ff9936e08466"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "2",
+                    "value": {
+                      "type": "true"
+                    }
+                  },
+                  "id": "2a9a7a1f-f432-475d-80ca-1ec7baeff4be"
+                }
+              ]
+            },
+            "id": "588ddce8-6a6c-4b31-8eb9-9b5b2685a45b"
+          }
+        ]
+      },
+      "id": "71de2dac-4567-492a-84bf-3da48281a4fb"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Okay! You've \nfinished the\nquiz! Head \nNorth of the\nvillage!",
+                "I'll remove the\ntrees blocking\nthat path!"
+              ],
+              "__section": "text",
+              "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "617f0d13-1b0f-468a-8e8c-be1a9feead94"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "How did you \nremove the trees\nwithout touching\nthem?",
+                "Are you sure\nthey're gone?"
+              ],
+              "__section": "text",
+              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "60c9bd8a-79a3-478c-9c8f-950636e22b5d"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "They're."
+              ],
+              "__section": "text",
+              "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a1f47b9f-cb75-4e80-b415-2b9a80282e6f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "okay, Cya later."
+              ],
+              "__section": "text",
+              "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "35faaa98-9b77-482c-a17a-7fafa910693e"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_RELATIVE",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 31
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "1705681c-96cf-432c-903f-79bcb0474d6f"
+          },
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "e6329329-fe10-4bfe-ab16-3797e281ff5f"
+          }
+        ],
+        "false": []
+      },
+      "id": "9a960b0c-a81e-4320-91fe-3c98ece0fe7e"
     }
   ],
   "startScript": [],
