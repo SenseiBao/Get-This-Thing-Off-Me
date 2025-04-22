@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "b20aa1ab-8ef3-464f-8c7b-49015d78a0f1",
+  "name": "BitsAndBobs(no_scale)",
+  "symbol": "tileset_bitsandbobs_no_scal",
+  "width": 16,
+  "height": 20,
+  "imageWidth": 128,
+  "imageHeight": 160,
+  "filename": "BitsAndBobs(no_scale).png"
+}
