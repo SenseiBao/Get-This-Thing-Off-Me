@@ -12,11 +12,11 @@
   "backgroundId": "33af8222-39ea-4822-85d3-0277db2c4141",
   "tilesetId": "",
   "paletteIds": [
-    "",
+    "default-bg-2",
     ""
   ],
   "spritePaletteIds": [
-    "dmg",
+    "",
     "dmg",
     "dmg",
     "dmg",

@@ -1,6 +1,6 @@
 {
   "_resourceType": "actor",
-  "id": "4d1352d8-c08b-40ad-93fa-67eb8e91a7a7",
+  "id": "b3873d75-77fd-4cd2-af28-d97ba9f30c7e",
   "name": "Tree left",
   "frame": 0,
   "animate": false,
@@ -14,14 +14,45 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_5",
+  "symbol": "actor_4",
   "script": [],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "5290284a-cfcd-4ab1-9678-06c6da66bcc1"
+          }
+        ],
+        "false": []
+      },
+      "id": "68a815a5-6be7-413c-a9e5-fe4c15f18686"
+    }
+  ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
   "x": 0,
-  "y": 19,
+  "y": 17,
   "_index": 3
 }

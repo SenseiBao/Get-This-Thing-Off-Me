@@ -1031,7 +1031,7 @@
                 {
                   "command": "EVENT_SET_VALUE",
                   "args": {
-                    "variable": "2",
+                    "variable": "3",
                     "value": {
                       "type": "true"
                     }
@@ -1053,7 +1053,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "2"
+            "value": "3"
           },
           "valueB": {
             "type": "true"

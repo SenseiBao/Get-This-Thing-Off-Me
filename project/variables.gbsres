@@ -5,6 +5,16 @@
       "id": "2",
       "name": "Mom_Interaction",
       "symbol": "var_mom_interaction"
+    },
+    {
+      "id": "1",
+      "name": "goblet_picked",
+      "symbol": "var_goblet_picked"
+    },
+    {
+      "id": "3",
+      "name": "quizDone",
+      "symbol": "var_quizdone"
     }
   ]
 }
