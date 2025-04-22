@@ -1,0 +1,55 @@
+{
+  "_resourceType": "scene",
+  "id": "f3a1fa83-80e7-428c-b5cf-04014b253af3",
+  "_index": 2,
+  "name": "Launch Screen",
+  "backgroundId": "4e274d05-6f2b-47ba-a1b5-5926fdad1362",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "LOGO",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_3",
+  "x": 60,
+  "y": 224,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "start"
+        ],
+        "override": true,
+        "__scriptTabs": "press"
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "0c3c2411-ebbf-4db8-98b1-5c45937afa08",
+              "x": {
+                "type": "number",
+                "value": 19
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "b1512c43-ac36-463a-836a-bbfdceed73cf"
+          }
+        ]
+      },
+      "id": "56928131-5552-4c4c-abce-06648b0b528b"
+    }
+  ],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
