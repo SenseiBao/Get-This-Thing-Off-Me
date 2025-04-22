@@ -1,0 +1,58 @@
+{
+  "_resourceType": "actor",
+  "id": "74585381-8e2d-4baf-8dc9-41c2a844ee8f",
+  "name": "Mom",
+  "frame": 0,
+  "animate": false,
+  "spriteSheetId": "9dbf1f59-0ceb-4868-99fd-72651a045aab",
+  "prefabId": "",
+  "direction": "right",
+  "moveSpeed": 1,
+  "animSpeed": 15,
+  "paletteId": "",
+  "isPinned": false,
+  "persistent": false,
+  "collisionGroup": "",
+  "prefabScriptOverrides": {},
+  "symbol": "actor_7",
+  "script": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "2"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_HIDE",
+            "args": {
+              "actorId": "$self$"
+            },
+            "id": "97c76fff-3142-4b2f-b5ce-d870961366e5"
+          }
+        ],
+        "false": []
+      },
+      "id": "4e770854-d5dd-41ad-9bdd-47771ed8c7aa"
+    }
+  ],
+  "updateScript": [],
+  "hit1Script": [],
+  "hit2Script": [],
+  "hit3Script": [],
+  "x": 10,
+  "y": 9,
+  "_index": 0
+}

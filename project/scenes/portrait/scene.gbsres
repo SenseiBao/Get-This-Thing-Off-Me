@@ -24,6 +24,17 @@
       "id": "d8d72a24-53eb-42f7-8d08-748991d53e70"
     },
     {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        }
+      },
+      "id": "6fac7b3e-50b8-4ada-84ab-078c165d8881"
+    },
+    {
       "command": "EVENT_TEXT",
       "args": {
         "text": [
@@ -111,14 +122,14 @@
     {
       "command": "EVENT_SWITCH_SCENE",
       "args": {
-        "sceneId": "9d175d7e-33dc-474d-9952-22e3d7a00182",
+        "sceneId": "2b6dd2bb-4456-48ef-8ece-c0e145380843",
         "x": {
           "type": "number",
-          "value": 28
+          "value": 16
         },
         "y": {
           "type": "number",
-          "value": 17
+          "value": 7
         },
         "direction": "",
         "fadeSpeed": "2"
