@@ -3,10 +3,11 @@
   "id": "33af8222-39ea-4822-85d3-0277db2c4141",
   "name": "Judas_House",
   "symbol": "bg_judas_house",
-  "width": 14,
-  "height": 14,
-  "imageWidth": 112,
-  "imageHeight": 112,
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
   "filename": "Judas_House.png",
-  "tileColors": ""
+  "tileColors": "01168+",
+  "autoColor": false
 }

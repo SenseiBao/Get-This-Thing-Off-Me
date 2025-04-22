@@ -2,7 +2,7 @@
   "_resourceType": "scene",
   "id": "f3a1fa83-80e7-428c-b5cf-04014b253af3",
   "_index": 2,
-  "name": "Scene 3",
+  "name": "Launch Screen",
   "backgroundId": "4e274d05-6f2b-47ba-a1b5-5926fdad1362",
   "tilesetId": "",
   "width": 20,
@@ -13,8 +13,8 @@
   "collisions": "00168+",
   "autoFadeSpeed": 1,
   "symbol": "scene_3",
-  "x": 312,
-  "y": 184,
+  "x": 60,
+  "y": 224,
   "script": [
     {
       "command": "EVENT_SET_INPUT_SCRIPT",

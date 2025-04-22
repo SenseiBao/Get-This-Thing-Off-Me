@@ -4,8 +4,8 @@
   "name": "Wall_Edges",
   "symbol": "tileset_wall_edges",
   "width": 4,
-  "height": 1,
+  "height": 2,
   "imageWidth": 32,
-  "imageHeight": 8,
+  "imageHeight": 16,
   "filename": "Wall_Edges.png"
 }
