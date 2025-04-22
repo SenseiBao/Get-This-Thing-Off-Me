@@ -73,7 +73,7 @@
             "value": 1
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -136,7 +136,7 @@
                   "value": 1
                 }
               },
-              "__collapseElse": true
+              "__collapseElse": false
             },
             "children": {
               "true": [
@@ -166,15 +166,43 @@
                   "id": "14f3e8b3-f16a-4925-97e2-4b0bdeb5658f"
                 }
               ],
-              "false": []
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Take care."
+                    ],
+                    "__section": "text",
+                    "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "d2a7293c-955b-42f4-8458-277189236afc"
+                }
+              ]
             },
             "id": "0f80d99a-85df-4dae-a930-65874b13af1c"
-          },
+          }
+        ],
+        "false": [
           {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Take care."
+                "Be fr"
               ],
               "__section": "text",
               "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
@@ -193,37 +221,11 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "d2a7293c-955b-42f4-8458-277189236afc"
+            "id": "7d7267ee-500c-4904-bb48-d8d5142c7123"
           }
-        ],
-        "false": []
+        ]
       },
       "id": "b40289d9-fab2-4007-ab8f-14a579969315"
-    },
-    {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "Be fr"
-        ],
-        "__section": "text",
-        "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "7d7267ee-500c-4904-bb48-d8d5142c7123"
     }
   ],
   "startScript": [],
