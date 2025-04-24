@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "8e2b6f05-f2ed-4829-8891-4dbd0d899354",
+  "name": "rock_puzzle_map",
+  "symbol": "bg_rock_puzzle_map",
+  "width": 24,
+  "height": 24,
+  "imageWidth": 192,
+  "imageHeight": 192,
+  "filename": "rock_puzzle_map.png",
+  "tileColors": "01240+"
+}

@@ -1,7 +1,7 @@
 {
   "_resourceType": "actor",
-  "id": "4d1352d8-c08b-40ad-93fa-67eb8e91a7a7",
-  "name": "Tree left",
+  "id": "40de2741-5d69-475b-8959-a06039540ed5",
+  "name": "",
   "frame": 0,
   "animate": false,
   "spriteSheetId": "6bd524bb-b4e5-46c1-984c-5439fff5348f",
@@ -14,7 +14,7 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_5",
+  "symbol": "actor_14",
   "script": [],
   "startScript": [
     {
@@ -40,19 +40,19 @@
             "args": {
               "actorId": "$self$"
             },
-            "id": "db12d017-208e-40a8-b08c-37a60eae718e"
+            "id": "8b9ea739-e997-427c-bd02-36583d25c02c"
           }
         ],
         "false": []
       },
-      "id": "5bb45a47-718c-4528-a9ce-0ad30b170258"
+      "id": "eff54654-2b08-4358-9ac1-0628f99aa1e0"
     }
   ],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 3,
-  "y": 20,
-  "_index": 2
+  "x": 58,
+  "y": 33,
+  "_index": 6
 }
