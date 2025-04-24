@@ -8,5 +8,6 @@
   "imageWidth": 192,
   "imageHeight": 192,
   "filename": "rock_pushing_map.png",
-  "tileColors": ""
+  "tileColors": "07240+",
+  "autoColor": false
 }
