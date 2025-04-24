@@ -44,6 +44,17 @@
       "children": {
         "true": [
           {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              }
+            },
+            "id": "2e07b4b2-eb9c-4149-b0c9-62689f27ddba"
+          },
+          {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "4d1352d8-c08b-40ad-93fa-67eb8e91a7a7"
@@ -53,7 +64,7 @@
           {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
-              "actorId": "8890a00f-7f80-440d-ba98-9a0bcedc0e80"
+              "actorId": "b3873d75-77fd-4cd2-af28-d97ba9f30c7e"
             },
             "id": "0b9e1705-d3bf-417a-b882-76717a59b4b7"
           }

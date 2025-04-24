@@ -31,7 +31,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -60,6 +60,14 @@
               "__collapse": false
             },
             "id": "9091e31b-d877-4fb1-a4c8-87b02fc2f357"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "player",
+              "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+            },
+            "id": "e385ffe6-4f75-471d-a078-a6196db4eb9f"
           },
           {
             "command": "EVENT_TEXT",

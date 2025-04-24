@@ -2,19 +2,29 @@
   "_resourceType": "variables",
   "variables": [
     {
-      "id": "2",
-      "name": "Mom_Interaction",
-      "symbol": "var_mom_interaction"
-    },
-    {
       "id": "1",
       "name": "goblet_picked",
       "symbol": "var_goblet_picked"
     },
     {
+      "id": "2",
+      "name": "Mom_Interaction",
+      "symbol": "var_mom_interaction"
+    },
+    {
       "id": "3",
       "name": "quizDone",
       "symbol": "var_quizdone"
+    },
+    {
+      "id": "4",
+      "name": "NPC1Spoke",
+      "symbol": "var_npc1spoke"
+    },
+    {
+      "id": "8db6ec10-31a1-4df9-a87b-d1da66dddb1c__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
     }
   ]
 }

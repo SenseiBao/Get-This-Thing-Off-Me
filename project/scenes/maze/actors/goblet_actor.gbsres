@@ -101,6 +101,17 @@
       "children": {
         "true0": [
           {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "4",
+              "value": {
+                "type": "number",
+                "value": 2
+              }
+            },
+            "id": "4008e505-b568-4864-be00-a5eca48c7f4c"
+          },
+          {
             "command": "EVENT_ACTOR_DEACTIVATE",
             "args": {
               "actorId": "$self$"

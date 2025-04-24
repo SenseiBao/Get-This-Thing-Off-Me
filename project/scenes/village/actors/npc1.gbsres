@@ -17,63 +17,20 @@
   "symbol": "actor_0",
   "script": [
     {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "I'm weari-\nng a hat to \nhide these dumb\nfursui tears."
-        ],
-        "__section": "text",
-        "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "7f8a058b-610d-4e00-bb3d-76490c5a1a57"
-    },
-    {
-      "command": "EVENT_MENU",
-      "args": {
-        "variable": "L1",
-        "items": 2,
-        "option1": "give me some info",
-        "option2": "vampires are fake",
-        "option3": "",
-        "option4": "",
-        "option5": "",
-        "option6": "",
-        "option7": "",
-        "option8": "",
-        "cancelOnB": false,
-        "layout": "dialogue"
-      },
-      "id": "be7483fd-bdc9-4716-9005-c2efac6a6364"
-    },
-    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "L1"
+            "value": "4"
           },
           "valueB": {
             "type": "number",
             "value": 1
           }
         },
-        "__collapseElse": false
+        "__collapseElse": true
       },
       "children": {
         "true": [
@@ -81,128 +38,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "I hear there's a\ngoblet filled\nwith blood,",
-                "located south of\nthe village. \nIt used to \nbelong to a\nvampire.",
-                "no one can solve\nthe maze to get\nit though."
-              ],
-              "__section": "text",
-              "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
-              "minHeight": 5,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "cd184b3e-1712-4392-8763-02b2f5faf025"
-          },
-          {
-            "command": "EVENT_MENU",
-            "args": {
-              "variable": "L0",
-              "items": 2,
-              "option1": "It's just red40",
-              "option2": "thanks",
-              "option3": "",
-              "option4": "",
-              "option5": "",
-              "option6": "",
-              "option7": "",
-              "option8": "",
-              "cancelOnB": true,
-              "layout": "dialogue"
-            },
-            "id": "28d6316d-e59a-425b-8bd1-be84a740941b"
-          },
-          {
-            "command": "EVENT_IF",
-            "args": {
-              "condition": {
-                "type": "eq",
-                "valueA": {
-                  "type": "variable",
-                  "value": "L0"
-                },
-                "valueB": {
-                  "type": "number",
-                  "value": 1
-                }
-              },
-              "__collapseElse": false
-            },
-            "children": {
-              "true": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "Judas, I think \nyou're running \nlow on tinfoil."
-                    ],
-                    "__section": "text",
-                    "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
-                    "minHeight": 5,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "14f3e8b3-f16a-4925-97e2-4b0bdeb5658f"
-                }
-              ],
-              "false": [
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "Take care."
-                    ],
-                    "__section": "text",
-                    "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "d2a7293c-955b-42f4-8458-277189236afc"
-                }
-              ]
-            },
-            "id": "0f80d99a-85df-4dae-a930-65874b13af1c"
-          }
-        ],
-        "false": [
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "Be fr"
+                "Why did those \ntrees randomly\nfall...",
+                "Must be the work\nof vampires..."
               ],
               "__section": "text",
               "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
@@ -221,14 +58,463 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "7d7267ee-500c-4904-bb48-d8d5142c7123"
+            "id": "57e2f907-3d03-445a-add1-aca8aae286bc"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Erm, Vampires \naren't real"
+              ],
+              "__section": "text",
+              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "f9beae66-e1a0-4b05-8497-c956ca53103e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Shut the fuck \nup, Judas."
+              ],
+              "__section": "text",
+              "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "e3d6adfd-bb88-4ca6-8502-67116ec5701e"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I'm weari-\nng a hat to \nhide these dumb\nfursui tears."
+              ],
+              "__section": "text",
+              "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7f8a058b-610d-4e00-bb3d-76490c5a1a57"
+          },
+          {
+            "command": "EVENT_MENU",
+            "args": {
+              "variable": "L1",
+              "items": 2,
+              "option1": "give me some info",
+              "option2": "vampires are fake",
+              "option3": "",
+              "option4": "",
+              "option5": "",
+              "option6": "",
+              "option7": "",
+              "option8": "",
+              "cancelOnB": false,
+              "layout": "dialogue"
+            },
+            "id": "be7483fd-bdc9-4716-9005-c2efac6a6364"
+          },
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L1"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 1
+                }
+              },
+              "__collapseElse": false
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "I hear there's a\ngoblet filled\nwith blood,",
+                      "located south of\nthe village. \nIt used to \nbelong to a\nvampire.",
+                      "no one can solve\nthe maze to get\nit though."
+                    ],
+                    "__section": "text",
+                    "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+                    "minHeight": 5,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "cd184b3e-1712-4392-8763-02b2f5faf025"
+                },
+                {
+                  "command": "EVENT_MENU",
+                  "args": {
+                    "variable": "L0",
+                    "items": 2,
+                    "option1": "It's just red40",
+                    "option2": "thanks",
+                    "option3": "",
+                    "option4": "",
+                    "option5": "",
+                    "option6": "",
+                    "option7": "",
+                    "option8": "",
+                    "cancelOnB": true,
+                    "layout": "dialogue"
+                  },
+                  "id": "28d6316d-e59a-425b-8bd1-be84a740941b"
+                },
+                {
+                  "command": "EVENT_IF",
+                  "args": {
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "L0"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    },
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Judas, I think \nyou're running \nlow on tinfoil."
+                          ],
+                          "__section": "text",
+                          "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+                          "minHeight": 5,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "14f3e8b3-f16a-4925-97e2-4b0bdeb5658f"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Take care."
+                          ],
+                          "__section": "text",
+                          "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "d2a7293c-955b-42f4-8458-277189236afc"
+                      }
+                    ]
+                  },
+                  "id": "0f80d99a-85df-4dae-a930-65874b13af1c"
+                }
+              ],
+              "false": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Be fr"
+                    ],
+                    "__section": "text",
+                    "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "7d7267ee-500c-4904-bb48-d8d5142c7123"
+                }
+              ]
+            },
+            "id": "b40289d9-fab2-4007-ab8f-14a579969315"
           }
         ]
       },
-      "id": "b40289d9-fab2-4007-ab8f-14a579969315"
+      "id": "141b5ecd-562a-4177-bd53-7286c44c02ec"
     }
   ],
-  "startScript": [],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "4"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Judas!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "b69acc69-4bd7-4027-b3ae-bb048cef697c"
+                },
+                {
+                  "command": "EVENT_ACTOR_EMOTE",
+                  "args": {
+                    "actorId": "player",
+                    "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
+                  },
+                  "id": "924c7f5f-da44-4359-9be4-83ede9754697"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "player",
+                    "direction": {
+                      "type": "direction",
+                      "value": "up"
+                    }
+                  },
+                  "id": "6d2ae534-f5cf-4660-b5c7-89acdadd8cec"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 27
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 19
+                    },
+                    "moveType": "horizontal",
+                    "useCollisions": true
+                  },
+                  "id": "3159c095-5fd4-4044-957b-a2b077aadf55"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "$self$",
+                    "direction": {
+                      "type": "direction",
+                      "value": "down"
+                    }
+                  },
+                  "id": "eddb71ed-51ed-494e-b399-aced2fbfd746"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "player",
+                    "x": {
+                      "type": "number",
+                      "value": 27
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 20
+                    },
+                    "moveType": "horizontal",
+                    "useCollisions": true
+                  },
+                  "id": "89d1a684-0ec2-430f-b1e0-ffb2f0b7f3fc"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 0.5,
+                    "frames": 30
+                  },
+                  "id": "62aa24c5-5caa-400b-923b-d99b021cbdbd"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "The sussy red\ntrees blocking",
+                      "the left side\nof the village",
+                      "seem to have \nmysteriously\nfallen over.",
+                      "And quite\nfrankly, your\nlife does not",
+                      "matter as much\nas everyone \nelse's. ",
+                      "So can you check\nwhat's going on?"
+                    ],
+                    "__section": "text",
+                    "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "39112a41-6821-4804-8d4e-d95db95934f3"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "4",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "516ca951-2251-472e-9c4d-4a9fd866e4ff"
+                }
+              ],
+              "false": []
+            },
+            "id": "1052013c-2026-4a95-915a-608086829d09"
+          }
+        ],
+        "false": []
+      },
+      "id": "28b10559-778e-436a-b2bd-1349e492341c"
+    }
+  ],
   "updateScript": [
     {
       "command": "EVENT_WAIT",

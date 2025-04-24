@@ -123,7 +123,7 @@
                 "type": "number",
                 "value": 10
               },
-              "__collapse": true
+              "__collapse": false
             },
             "id": "aff3ae65-498d-4e48-a1b4-ef8bfce51b9f"
           },
