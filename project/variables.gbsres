@@ -22,14 +22,14 @@
       "symbol": "var_npc1spoke"
     },
     {
-      "id": "8db6ec10-31a1-4df9-a87b-d1da66dddb1c__L0",
-      "name": "Local 0",
-      "symbol": "var_local_0"
-    },
-    {
       "id": "5",
       "name": "Rock_push_done",
       "symbol": "var_rock_push_done"
+    },
+    {
+      "id": "8db6ec10-31a1-4df9-a87b-d1da66dddb1c__L0",
+      "name": "Local 0",
+      "symbol": "var_local_0"
     }
   ]
 }

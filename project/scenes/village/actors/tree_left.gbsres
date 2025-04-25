@@ -24,7 +24,7 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "5"
+            "value": "1"
           },
           "valueB": {
             "type": "number",

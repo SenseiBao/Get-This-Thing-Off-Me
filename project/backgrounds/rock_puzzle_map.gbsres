@@ -8,5 +8,6 @@
   "imageWidth": 192,
   "imageHeight": 192,
   "filename": "rock_puzzle_map.png",
-  "tileColors": "01240+"
+  "tileColors": "01240+",
+  "autoColor": false
 }
