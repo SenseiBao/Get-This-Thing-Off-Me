@@ -19,7 +19,7 @@
     {
       "id": "4",
       "name": "NPC1Spoke",
-      "symbol": "var_npc1spoke"
+      "symbol": "var_npc1spoke_0"
     },
     {
       "id": "5",
@@ -29,7 +29,12 @@
     {
       "id": "8db6ec10-31a1-4df9-a87b-d1da66dddb1c__L0",
       "name": "Local 0",
-      "symbol": "var_local_0"
+      "symbol": "var_local_2"
+    },
+    {
+      "id": "823731c4-983c-4476-bafa-a73881394003__L0",
+      "name": "Local 0",
+      "symbol": "var_local_1"
     }
   ]
 }

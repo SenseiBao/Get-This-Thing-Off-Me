@@ -31,7 +31,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -449,7 +449,7 @@
         "__collapseCase15": false,
         "value15": 16,
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true0": [
@@ -1150,31 +1150,6 @@
             "id": "a1f47b9f-cb75-4e80-b415-2b9a80282e6f"
           },
           {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "okay, Cya later."
-              ],
-              "__section": "text",
-              "avatarId": "36e109ad-2c80-4dcb-a0f3-a8b74eead710",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "35faaa98-9b77-482c-a17a-7fafa910693e"
-          },
-          {
             "command": "EVENT_ACTOR_MOVE_RELATIVE",
             "args": {
               "actorId": "$self$",
@@ -1197,6 +1172,17 @@
               "actorId": "$self$"
             },
             "id": "e6329329-fe10-4bfe-ab16-3797e281ff5f"
+          },
+          {
+            "command": "EVENT_SET_VALUE",
+            "args": {
+              "variable": "4",
+              "value": {
+                "type": "number",
+                "value": 6
+              }
+            },
+            "id": "53a0640a-0b1f-4953-923a-415c9b3556b8"
           }
         ],
         "false": []
