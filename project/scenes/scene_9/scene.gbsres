@@ -10,12 +10,43 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "0f19+005+0f2+00b+0f2+002+0f2+005+0f2+00b+0f2+002+0f2+0012+0f2+002+0f2+0016+0f2+0016+0f2+00!0f2+004+0f2+00d+0f2+00e+0f4+004+0f2+0012+0f2+002+0f2+0016+0f2+0016+0f2+0016+0f4+00e+0f2+004+0f2+0016+0f2+003+0f2+004+0f2+005+0f2+004+0f2+0016+0f2+0016+0f2+0011+0f2+003+0f2+0014+0f4+0017+0f!003+0f2+0012+0f!0017+0f!0017+0f18+",
+  "collisions": "0f19+005+0f2+00b+0f2+002+0f2+005+0f2+00b+0f2+002+0f2+0012+0f2+002+0f2+0012+0f6+0014+0f4+00!0f2+004+0f2+00d+0f2+007+0f2+005+0f4+004+0f2+00e+0f6+002+0f2+0012+0f2+002+0f2+0016+0f2+0016+0f4+00e+0f2+004+0f4+00e+0f2+004+0f2+003+0f2+004+0f2+005+0f2+004+0f2+003+0f2+004+0f2+005+0f2+004+0f2+0016+0f2+0011+0f2+003+0f2+0011+0f2+00!0f4+0016+0f2+003+0f2+0012+0f!003+0f2+0012+0f!0017+0f18+",
   "autoFadeSpeed": 1,
   "symbol": "scene_9",
   "x": 696,
   "y": 576,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_DEACTIVATE",
+            "args": {
+              "actorId": "d66a975e-d26e-4c93-ac99-6d2625b5f58b"
+            },
+            "id": "56aa3085-b2e2-4f35-8382-b9c1ad9718d4"
+          }
+        ],
+        "false": []
+      },
+      "id": "506dc03e-7f65-49c7-bd63-18eb3610ef74"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []
