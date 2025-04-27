@@ -565,6 +565,23 @@
               "useCollisions": false
             },
             "id": "7b22bb84-95e8-4848-b085-b50ee91e04cd"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "9d175d7e-33dc-474d-9952-22e3d7a00182",
+              "x": {
+                "type": "number",
+                "value": 27
+              },
+              "y": {
+                "type": "number",
+                "value": 19
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "258e8463-91d5-42c6-b8e9-fa57be1fa75e"
           }
         ],
         "false": []
