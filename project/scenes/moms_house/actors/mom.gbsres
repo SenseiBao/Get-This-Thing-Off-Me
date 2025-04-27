@@ -64,7 +64,7 @@
             "type": "true"
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -156,30 +156,199 @@
             "id": "d378018b-b0bb-40cb-9c3c-0846b176eec6"
           }
         ],
-        "false": []
+        "false": [
+          {
+            "command": "EVENT_COMMENT",
+            "args": {
+              "text": "Add rumors below.\n"
+            },
+            "id": "3ae3ada6-a6ac-40ac-845d-2d91d553701a"
+          },
+          {
+            "command": "EVENT_VARIABLE_MATH",
+            "args": {
+              "vectorX": "L4",
+              "operation": "set",
+              "other": "rnd",
+              "vectorY": "L0",
+              "value": "0",
+              "minValue": 1,
+              "maxValue": 4,
+              "clamp": false
+            },
+            "id": "c749dd0f-09fe-4b0e-9e8b-1e0d1b0cd228"
+          },
+          {
+            "command": "EVENT_SWITCH",
+            "args": {
+              "variable": "L4",
+              "choices": 4,
+              "__collapseCase0": false,
+              "value0": 1,
+              "__collapseCase1": false,
+              "value1": 2,
+              "__collapseCase2": false,
+              "value2": 3,
+              "__collapseCase3": false,
+              "value3": 4,
+              "__collapseCase4": false,
+              "value4": 5,
+              "__collapseCase5": false,
+              "value5": 6,
+              "__collapseCase6": false,
+              "value6": 7,
+              "__collapseCase7": false,
+              "value7": 8,
+              "__collapseCase8": false,
+              "value8": 9,
+              "__collapseCase9": false,
+              "value9": 10,
+              "__collapseCase10": false,
+              "value10": 11,
+              "__collapseCase11": false,
+              "value11": 12,
+              "__collapseCase12": false,
+              "value12": 13,
+              "__collapseCase13": false,
+              "value13": 14,
+              "__collapseCase14": false,
+              "value14": 15,
+              "__collapseCase15": false,
+              "value15": 16,
+              "__collapseElse": false
+            },
+            "children": {
+              "true0": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Dr Jeterson has\nbeen crying every\nday by the church.",
+                      "His \"tree sap\nonly\" diet will be\nthe death of him."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "4e36e7fe-6f8a-4144-bf8e-8debe3d868d1"
+                }
+              ],
+              "true1": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "I stopped going\ninto the woods.",
+                      "I hate the way\nthe monsters watch\nyou from the dark."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "c9950214-6544-4a77-8c46-aed078835aff"
+                }
+              ],
+              "true2": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "I heard they're\nmaking a new\nsuit model.",
+                      "It took me so long\nto get used to \nhaving fur."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "544658e3-2197-4cbf-84fd-ebf8f00d63c6"
+                }
+              ],
+              "true3": [
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "I'm tired of \ngetting quizzed\nby bats.",
+                      "I don't even know\nwhat a \"SLAV2500\"\nis."
+                    ],
+                    "__section": "text",
+                    "avatarId": "",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "16493fdb-d88d-4266-bb17-da8f1e7b2545"
+                }
+              ],
+              "true4": [],
+              "true5": [],
+              "true6": [],
+              "true7": [],
+              "true8": [],
+              "true9": [],
+              "true10": [],
+              "true11": [],
+              "true12": [],
+              "true13": [],
+              "true14": [],
+              "true15": [],
+              "false": []
+            },
+            "id": "b40bf3ce-a067-4654-b1c5-01b41e44bb0d"
+          }
+        ]
       },
       "id": "b31ed24f-d977-4add-8c01-e99373575ed5"
-    },
-    {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "L5"
-          },
-          "valueB": {
-            "type": "false"
-          }
-        },
-        "__collapseElse": true
-      },
-      "children": {
-        "true": [],
-        "false": []
-      },
-      "id": "e53cdf3c-5a25-4981-89ff-751be54dabd0"
     }
   ],
   "startScript": [
