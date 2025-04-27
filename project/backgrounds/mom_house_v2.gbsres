@@ -8,5 +8,6 @@
   "imageWidth": 160,
   "imageHeight": 144,
   "filename": "mom_house_v2.png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }
