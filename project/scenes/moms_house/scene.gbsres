@@ -41,7 +41,7 @@
             "value": 0
           }
         },
-        "__collapseElse": true
+        "__collapseElse": false
       },
       "children": {
         "true": [
@@ -300,7 +300,7 @@
                 "I was admiring\nyour daguerrotype!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -315,7 +315,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "884b4992-4db8-4db2-824e-dbe2e6e9aa92"
           },
@@ -441,7 +441,7 @@
                 "The Minion-Themed\nplastic ones?\n"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -456,7 +456,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "be916f94-74c8-44aa-b5f0-0e9ae0abd3bd"
           },
@@ -467,7 +467,16 @@
                 "Haha, yes, son!",
                 "I fucking love\nthose silly yellow\nfellas!",
                 "I lost my original\nset.\n",
-                "The ceremony\nwouldn't be the\nsame without them."
+                "The ceremony\nwouldn't be the\nsame without them.",
+                "Would you be a\ndear and fetch\nmore for me?",
+                "I heard Ms Pmav\nmight have a few\nspares.",
+                "Hurry back.\nIt will be dark\nsoon.",
+                "!S3!We wouldn't want\nyou to be late\nfor Second Birth.",
+                "!S1!And also to avoid\nthe nightmarish\nvampires.",
+                "That stalk the\nnight in search\nof Suitless.",
+                "To feast on their\nflesh...\n",
+                "... and blood.\n\n",
+                "As is normal and\nregular in this\nuniverse."
               ],
               "__section": "text",
               "avatarId": "",
@@ -485,27 +494,77 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "ebdeb760-41a5-4125-ac74-3db78ba399c9"
           },
           {
-            "command": "EVENT_SWITCH_SCENE",
+            "command": "EVENT_TEXT",
             "args": {
-              "sceneId": "9d175d7e-33dc-474d-9952-22e3d7a00182",
+              "text": [
+                "Very well, Mother!\n\n",
+                "I shall complete\nthis quest!\n"
+              ],
+              "__section": "text",
+              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "1e1d0060-12b5-4406-962c-8c4e7cfc5c98"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Yeah, okay."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b1252fb8-80d7-4dab-a498-e59768f85bd6"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "74585381-8e2d-4baf-8dc9-41c2a844ee8f",
               "x": {
                 "type": "number",
-                "value": 11
+                "value": 10
               },
               "y": {
                 "type": "number",
-                "value": 17
+                "value": 8
               },
-              "direction": "down",
-              "fadeSpeed": "2",
-              "__collapse": true
+              "moveType": "horizontal",
+              "useCollisions": false
             },
-            "id": "d3daa309-0d75-4baa-9b91-15295bdb41c9"
+            "id": "7b22bb84-95e8-4848-b085-b50ee91e04cd"
           }
         ],
         "false": []

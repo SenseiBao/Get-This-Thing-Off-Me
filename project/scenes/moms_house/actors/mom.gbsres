@@ -4,7 +4,7 @@
   "name": "Mom",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "c0f17bbf-6755-483c-a27f-43ef08eb6402",
+  "spriteSheetId": "ff9d0dc0-f384-4e54-b94c-cd7748adde24",
   "prefabId": "",
   "direction": "right",
   "moveSpeed": 1,
@@ -53,6 +53,6 @@
   "hit2Script": [],
   "hit3Script": [],
   "x": 10,
-  "y": 9,
+  "y": 7,
   "_index": 0
 }
