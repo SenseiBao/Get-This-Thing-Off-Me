@@ -278,8 +278,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Erm, hello Mother!",
-                "I was admiring\nyour daguerrotype!"
+                "Erm,\nhello Mother!\n",
+                "I was admiring\nyour fine\ndaguerrotype!"
               ],
               "__section": "text",
               "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
@@ -420,7 +420,7 @@
             "args": {
               "text": [
                 "You mean...",
-                "The Minion-Themed\nplastic ones?\n"
+                "The plastic\nMinion-themed\nones?\n"
               ],
               "__section": "text",
               "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
@@ -484,7 +484,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Very well, Mother!\n\n",
+                "Very well, \nMother!\n\n",
                 "I shall complete\nthis quest!\n"
               ],
               "__section": "text",
@@ -549,16 +549,7 @@
             "id": "7b22bb84-95e8-4848-b085-b50ee91e04cd"
           }
         ],
-        "false": [
-          {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "2b313397-0aa4-4330-b73d-ce4a6bf2e87d",
-              "$actor[0]$": "74585381-8e2d-4baf-8dc9-41c2a844ee8f"
-            },
-            "id": "bfe83c6f-0feb-41e5-99f5-341fd24c0e0c"
-          }
-        ]
+        "false": []
       },
       "id": "0d4b051a-be0e-445a-9982-3357b24f9967"
     }

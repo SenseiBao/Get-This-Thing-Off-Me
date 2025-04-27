@@ -48,7 +48,15 @@
       "id": "4e770854-d5dd-41ad-9bdd-47771ed8c7aa"
     }
   ],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "2b313397-0aa4-4330-b73d-ce4a6bf2e87d"
+      },
+      "id": "7f06d147-b0ed-48d6-87c1-9c4fb457c2d7"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
