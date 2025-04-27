@@ -8,16 +8,6 @@
       "id": "V0",
       "name": "Variable A",
       "passByReference": true
-    },
-    "V1": {
-      "id": "V1",
-      "name": "Variable B",
-      "passByReference": true
-    },
-    "V2": {
-      "id": "V2",
-      "name": "Variable C",
-      "passByReference": true
     }
   },
   "actors": {
@@ -71,7 +61,7 @@
                 {
                   "command": "EVENT_VARIABLE_MATH",
                   "args": {
-                    "vectorX": "V1",
+                    "vectorX": "V0",
                     "operation": "set",
                     "other": "rnd",
                     "vectorY": "V0",
@@ -85,7 +75,7 @@
                 {
                   "command": "EVENT_SWITCH",
                   "args": {
-                    "variable": "V1",
+                    "variable": "V0",
                     "choices": 4,
                     "__collapseCase0": false,
                     "value0": 1,
@@ -219,7 +209,7 @@
                 {
                   "command": "EVENT_VARIABLE_MATH",
                   "args": {
-                    "vectorX": "V2",
+                    "vectorX": "V0",
                     "operation": "set",
                     "other": "rnd",
                     "vectorY": "V0",
@@ -233,7 +223,7 @@
                 {
                   "command": "EVENT_SWITCH",
                   "args": {
-                    "variable": "V2",
+                    "variable": "V0",
                     "choices": 4,
                     "__collapseCase0": false,
                     "value0": 1,

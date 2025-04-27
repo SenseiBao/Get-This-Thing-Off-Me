@@ -4,19 +4,9 @@
   "name": "NPC Wandering Script 3",
   "description": "",
   "variables": {
-    "V3": {
-      "id": "V3",
-      "name": "Variable G",
-      "passByReference": true
-    },
-    "V4": {
-      "id": "V4",
-      "name": "Variable H",
-      "passByReference": true
-    },
-    "V5": {
-      "id": "V5",
-      "name": "Variable I",
+    "V2": {
+      "id": "V2",
+      "name": "Variable C",
       "passByReference": true
     }
   },
@@ -38,7 +28,7 @@
           {
             "command": "EVENT_VARIABLE_MATH",
             "args": {
-              "vectorX": "V3",
+              "vectorX": "V2",
               "operation": "set",
               "other": "rnd",
               "vectorY": "V0",
@@ -57,7 +47,7 @@
                 "type": "eq",
                 "valueA": {
                   "type": "variable",
-                  "value": "V3"
+                  "value": "V2"
                 },
                 "valueB": {
                   "type": "number",
@@ -71,7 +61,7 @@
                 {
                   "command": "EVENT_VARIABLE_MATH",
                   "args": {
-                    "vectorX": "V4",
+                    "vectorX": "V2",
                     "operation": "set",
                     "other": "rnd",
                     "vectorY": "V0",
@@ -85,7 +75,7 @@
                 {
                   "command": "EVENT_SWITCH",
                   "args": {
-                    "variable": "V4",
+                    "variable": "V2",
                     "choices": 4,
                     "__collapseCase0": false,
                     "value0": 1,
@@ -219,7 +209,7 @@
                 {
                   "command": "EVENT_VARIABLE_MATH",
                   "args": {
-                    "vectorX": "V5",
+                    "vectorX": "V2",
                     "operation": "set",
                     "other": "rnd",
                     "vectorY": "V0",
@@ -233,7 +223,7 @@
                 {
                   "command": "EVENT_SWITCH",
                   "args": {
-                    "variable": "V5",
+                    "variable": "V2",
                     "choices": 4,
                     "__collapseCase0": false,
                     "value0": 1,
