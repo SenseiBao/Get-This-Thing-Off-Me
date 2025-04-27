@@ -1,0 +1,70 @@
+{
+  "_resourceType": "trigger",
+  "id": "20de8d1b-3124-4966-b1c4-7b2820119643",
+  "name": "",
+  "prefabId": "",
+  "x": 0,
+  "y": 10,
+  "symbol": "trigger_16",
+  "prefabScriptOverrides": {},
+  "width": 1,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "This is mom's room\n",
+          "She hated when I\ngo in there.\n"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "239a5dfb-4969-42b3-a2e7-dcbc1ad43529"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "$self$",
+        "direction": {
+          "type": "direction",
+          "value": "right"
+        }
+      },
+      "id": "50976c6d-59f8-4a42-8b2a-96a75fcb890b"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 3
+        },
+        "y": {
+          "type": "number",
+          "value": 10
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "3aaee99e-3a9f-4ed3-9415-3cba8fc22ced"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}
