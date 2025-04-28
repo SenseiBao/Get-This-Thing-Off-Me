@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "6d26224a-cfd0-4143-a21f-a73393c7b82c",
+  "name": "Randomhouse1",
+  "symbol": "bg_randomhouse1",
+  "width": 20,
+  "height": 16,
+  "imageWidth": 160,
+  "imageHeight": 128,
+  "filename": "Randomhouse1.png",
+  "tileColors": ""
+}
