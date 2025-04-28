@@ -14,7 +14,7 @@
   "autoFadeSpeed": 1,
   "symbol": "scene_9",
   "x": 680,
-  "y": 400,
+  "y": 488,
   "script": [
     {
       "command": "EVENT_IF",
