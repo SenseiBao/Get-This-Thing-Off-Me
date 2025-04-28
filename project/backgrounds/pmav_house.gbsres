@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "ed45d710-a66b-48de-9b3b-e0c60aef4eed",
+  "name": "pmav_house",
+  "symbol": "bg_pmav_house",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "pmav_house.png",
+  "tileColors": ""
+}
