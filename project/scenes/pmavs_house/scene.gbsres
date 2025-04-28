@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "7f1024a7-8e4b-4516-9199-99324665c848",
+  "_index": 11,
+  "name": "Pmav's House",
+  "backgroundId": "ed45d710-a66b-48de-9b3b-e0c60aef4eed",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "0f15+00b+0f!006+0f2+00b+0f!006+0f2+00b+0f!006+0f2+00b+0f9+00b+0f!006+0f2+00b+0f!006+0f2+00b+0f!006+0f2+00b+0f!006+0f!0013+0f!0013+0f2+0012+0f2+00!0f4+00d+0f2+00!0f4+00d+0f2+0012+0f2+002+0f2+002+0f2+002+0f2+005+0f!00!0f!002+0f2+002+0f2+002+0f2+005+0f!00!0f9+002+0f7+002+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_12",
+  "x": 704,
+  "y": 632,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
