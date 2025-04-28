@@ -56,7 +56,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "0e2de09c-befa-4e56-a1ce-77faad0e80d1"
           },
@@ -82,7 +83,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "272a279b-a16a-43b5-9a0b-fbd62958b5d5"
           },
@@ -143,7 +145,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "993aa3fa-9491-4a2f-b49f-2654eaa41d3e"
           },
@@ -168,14 +171,16 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "a9d923a1-33d1-43d5-85ff-c12bdede6149"
           },
           {
             "command": "EVENT_INC_VALUE",
             "args": {
-              "variable": "7"
+              "variable": "7",
+              "__collapse": true
             },
             "id": "cffc0614-1fee-4e00-b043-5ba6a4fc3175"
           },
@@ -235,7 +240,8 @@
                     "closeWhen": "key",
                     "closeButton": "a",
                     "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
+                    "closeDelayFrames": 30,
+                    "__collapse": true
                   },
                   "id": "79b94456-7a0f-4998-87b9-48728140a798"
                 },
