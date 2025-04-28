@@ -30,7 +30,7 @@
             "value": 1
           }
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": false
       },
       "children": {
@@ -117,10 +117,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "I'm weari-\nng a hat to \nhide these dumb\nfursui tears."
+                "I'm weari-\nng a hat to \nhide these dumb\nfursuit tears."
               ],
               "__section": "text",
-              "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+              "avatarId": "18613218-76e5-48a1-84df-d9ff513844ad",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -180,10 +180,10 @@
                     "text": [
                       "I hear there's a\ngoblet filled\nwith blood,",
                       "located south of\nthe village. \nIt used to \nbelong to a\nvampire.",
-                      "no one can solve\nthe maze to get\nit though."
+                      "no one can solve\nthe maze to get\nit, though."
                     ],
                     "__section": "text",
-                    "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+                    "avatarId": "18613218-76e5-48a1-84df-d9ff513844ad",
                     "minHeight": 5,
                     "maxHeight": 7,
                     "textX": 1,
@@ -244,7 +244,7 @@
                             "Judas, I think \nyou're running \nlow on tinfoil."
                           ],
                           "__section": "text",
-                          "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+                          "avatarId": "18613218-76e5-48a1-84df-d9ff513844ad",
                           "minHeight": 5,
                           "maxHeight": 7,
                           "textX": 1,
@@ -271,7 +271,7 @@
                             "Take care."
                           ],
                           "__section": "text",
-                          "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+                          "avatarId": "18613218-76e5-48a1-84df-d9ff513844ad",
                           "minHeight": 4,
                           "maxHeight": 7,
                           "textX": 1,
@@ -302,7 +302,7 @@
                       "Be fr"
                     ],
                     "__section": "text",
-                    "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+                    "avatarId": "18613218-76e5-48a1-84df-d9ff513844ad",
                     "minHeight": 4,
                     "maxHeight": 7,
                     "textX": 1,
