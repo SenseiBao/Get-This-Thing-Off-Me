@@ -136,6 +136,13 @@
             "id": "0975bd04-052a-476d-bd44-ac466efb1a99"
           },
           {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "8"
+            },
+            "id": "7e4698d0-3f38-43e9-84ab-dd8a40e23480"
+          },
+          {
             "command": "EVENT_SWITCH_SCENE",
             "args": {
               "sceneId": "7f1024a7-8e4b-4516-9199-99324665c848",
@@ -151,13 +158,6 @@
               "fadeSpeed": "2"
             },
             "id": "49257cbc-dd87-495f-8f95-932bb3d06257"
-          },
-          {
-            "command": "EVENT_INC_VALUE",
-            "args": {
-              "variable": "8"
-            },
-            "id": "7e4698d0-3f38-43e9-84ab-dd8a40e23480"
           }
         ],
         "true1": [
