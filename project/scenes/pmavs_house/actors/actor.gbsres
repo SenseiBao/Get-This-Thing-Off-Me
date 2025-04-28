@@ -23,14 +23,15 @@
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "1"
+            "value": "7"
           },
           "valueB": {
             "type": "number",
             "value": 1
           }
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -38,10 +39,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Ah... Splendid!",
-                "You found my\nyummy Red40!",
-                "The plates are\nyours.",
-                "Now leave me be.\nI have work to do!"
+                "Back so soon?"
               ],
               "__section": "text",
               "avatarId": "",
@@ -60,38 +58,14 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "245254d3-0795-4048-8ea7-372f39540862"
+            "id": "0e2de09c-befa-4e56-a1ce-77faad0e80d1"
           },
           {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Item received:\nMinion Plates"
-              ],
-              "__section": "text",
-              "avatarId": "",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "8c453298-7d75-4f99-bdf3-cd1dc9e96aa1"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "I should hurry\nhome to give \nthese to Mother!"
+                "I'm sorry,\nMs Pmav.",
+                "But I can't go\ndown there!"
               ],
               "__section": "text",
               "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
@@ -110,7 +84,111 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "65200961-e2fa-4d9c-8543-b40d3de80462"
+            "id": "272a279b-a16a-43b5-9a0b-fbd62958b5d5"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Ah, I see...",
+                "Well, I hope\nyour mom won't\nmiss the plates."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c8239b1e-6140-4b63-8787-70f7657bd5ed"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "player",
+              "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+            },
+            "id": "824ce76d-8854-485d-a8f2-0d90c511cb3f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "...",
+                "I should go\nhome.",
+                "The ceremony\nwill begin\nsoon."
+              ],
+              "__section": "text",
+              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "993aa3fa-9491-4a2f-b49f-2654eaa41d3e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Whatever."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "a9d923a1-33d1-43d5-85ff-c12bdede6149"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "7"
+            },
+            "id": "cffc0614-1fee-4e00-b043-5ba6a4fc3175"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "$self$",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              }
+            },
+            "id": "a66f78ae-be1a-429e-9e1f-bad860b0c5ba"
           }
         ],
         "false": [
@@ -121,57 +199,26 @@
                 "type": "eq",
                 "valueA": {
                   "type": "variable",
-                  "value": "8"
+                  "value": "1"
                 },
                 "valueB": {
                   "type": "number",
                   "value": 1
                 }
               },
-              "__collapseElse": false,
+              "__collapseElse": true,
               "__collapse": true
             },
             "children": {
               "true": [
                 {
-                  "command": "EVENT_WAIT",
-                  "args": {
-                    "time": 0.5,
-                    "frames": 30
-                  },
-                  "id": "823a1cc2-5f4e-45ca-97af-41945b926dcb"
-                },
-                {
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Salutations,\nMs Pmav!"
-                    ],
-                    "__section": "text",
-                    "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "3c2f3401-1b6d-496f-85dd-de6f9a377a18"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "Judas, you scared\nme!",
-                      "Don't sneak up on\nme like that!"
+                      "Ah... Splendid!",
+                      "You found my\nyummy Red40!",
+                      "The plates are\nyours.",
+                      "Now leave me be.\nI have work to do!"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -190,50 +237,13 @@
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30
                   },
-                  "id": "b476fc17-ea2e-4b6c-a363-ad5b0a1e5bbb"
-                },
-                {
-                  "command": "EVENT_ACTOR_EMOTE",
-                  "args": {
-                    "actorId": "player",
-                    "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
-                  },
-                  "id": "a0c5898c-586d-4500-b4af-2577896a0026"
+                  "id": "79b94456-7a0f-4998-87b9-48728140a798"
                 },
                 {
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "My apologies,\nMs Pmav!",
-                      "I didn't mean\nto alarm you."
-                    ],
-                    "__section": "text",
-                    "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "a2b8fce3-e1cf-49ec-9424-b91b39f5787a"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "No worries,\ndear scrub.",
-                      "I was so locked in\ntrying to rank\nPlatinum.",
-                      "That I didn't \nhear you open the\ndoor.",
-                      "What can ol' \nMs Pmav do\nfor you?"
+                      "Item received:\nMinion Plates"
                     ],
                     "__section": "text",
                     "avatarId": "",
@@ -252,15 +262,13 @@
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30
                   },
-                  "id": "b6be1026-4f6e-4e2f-bcb7-44c0f030efef"
+                  "id": "d2880bc5-2564-497e-9079-4299ac2a7529"
                 },
                 {
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "I am on a quest!",
-                      "My Mother\nrequests your\nfinest...",
-                      "... Minion\ntableware!"
+                      "I should hurry\nhome to give \nthese to Mother!"
                     ],
                     "__section": "text",
                     "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
@@ -279,321 +287,505 @@
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30
                   },
-                  "id": "10dcc06e-9482-4e54-9ce5-8653993ead9e"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "Oh, does she now?",
-                      "I still haven't \nforgiven her,\nyou know..",
-                      "She stained my\ncustom Miku\nbodypillow!",
-                      "I don't care what\nshe says!",
-                      "Those stains were\nNOT there before."
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "cb8bcdaf-af7e-4dfe-8c89-58c33e2a9735"
-                },
-                {
-                  "command": "EVENT_ACTOR_EMOTE",
-                  "args": {
-                    "actorId": "player",
-                    "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
-                  },
-                  "id": "74fc8e26-d8c7-4fae-a8cd-ccc4492af51e"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "Well, erm..",
-                      "ACTUALLY..",
-                      "Mayhaps the\ngentlesir before\nyou...",
-                      "Played a role in\nthat unfortunate\nmishap."
-                    ],
-                    "__section": "text",
-                    "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "edccfcca-be98-4b40-b820-4fe6f249c5da"
-                },
-                {
-                  "command": "EVENT_WAIT",
-                  "args": {
-                    "time": 0.3,
-                    "frames": 30
-                  },
-                  "id": "6a17791b-9c44-43c5-bb29-40b16f84c136"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "And by that I\nmean-"
-                    ],
-                    "__section": "behavior",
-                    "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "text",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.3,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "63587cfc-d16d-4515-8cea-a8ff01a10304"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "Please stop\ntalking."
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": 0,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "9a9949d7-1d6a-40be-8a8c-ae0ae4f0ec8a"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "Hmm...",
-                      "How about this?",
-                      "You bring me\nsomething and the\nplates are yours."
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "851a54d9-2979-44e5-9c18-322c560fc093"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "Ah!",
-                      "A classic \nquid-pro-quo!",
-                      "Most\npresidential!",
-                      "How may I be of\nassistance?"
-                    ],
-                    "__section": "text",
-                    "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "f508dab9-fe9e-4d9f-a000-160441ce3457"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "I dropped my \nchalice into the\nbasement.",
-                      "Unfortunately,\nit's comically \nmaze-like.",
-                      "I need my chalice\nto rank Platinum\nin League.",
-                      "It holds my last\nreserves of fresh\nblo-",
-                      "Um... uhh",
-                      "Fresh Gamer Supps\nRed40, I mean.",
-                      "I can't clutch\nsily-style without\nmy Red40.",
-                      "Bring me the \nchalice and the\nplates are yours."
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "164f3a54-3c72-4cc2-9379-7293a548840a"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "Very well!\nI shall venture\nout at once!"
-                    ],
-                    "__section": "text",
-                    "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "2c2c79ce-14b3-4682-b6d2-d23fc7e81b01"
-                },
-                {
-                  "command": "EVENT_TEXT",
-                  "args": {
-                    "text": [
-                      "Thanks, Judas.",
-                      "The stairs in the\ncorner lead to the\nbasement."
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
-                  },
-                  "id": "e92cce05-c523-484a-9ce8-7f144d0cc9e4"
-                },
-                {
-                  "command": "EVENT_ACTOR_SET_DIRECTION",
-                  "args": {
-                    "actorId": "$self$",
-                    "direction": {
-                      "type": "direction",
-                      "value": "up"
-                    }
-                  },
-                  "id": "1be96eb8-28d4-4081-a368-21716a9083e8"
-                },
-                {
-                  "command": "EVENT_INC_VALUE",
-                  "args": {
-                    "variable": "8"
-                  },
-                  "id": "df5432e2-fa08-4006-be86-ff57290a9bb4"
+                  "id": "af998b4b-ffb3-44e4-9707-6b1147e51280"
                 }
               ],
               "false": [
                 {
-                  "command": "EVENT_TEXT",
+                  "command": "EVENT_IF",
                   "args": {
-                    "text": [
-                      "Ms Pmav is busy\ngaming."
-                    ],
-                    "__section": "text",
-                    "avatarId": "",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
+                    "condition": {
+                      "type": "eq",
+                      "valueA": {
+                        "type": "variable",
+                        "value": "8"
+                      },
+                      "valueB": {
+                        "type": "number",
+                        "value": 1
+                      }
+                    },
+                    "__collapseElse": false,
+                    "__collapse": true
                   },
-                  "id": "5444a1c8-ccfa-4e6c-8cb5-ebb73fdd292e"
+                  "children": {
+                    "true": [
+                      {
+                        "command": "EVENT_WAIT",
+                        "args": {
+                          "time": 0.5,
+                          "frames": 30
+                        },
+                        "id": "8c916a2d-84b9-45e4-9971-ebf2ca475d77"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Salutations,\nMs Pmav!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "61fada74-f225-4c3d-8d9d-ca119bef1bbc"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Judas, you scared\nme!",
+                            "Don't sneak up on\nme like that!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "7b377693-db03-4a14-9e21-ff7309f1dd9d"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "player",
+                          "emoteId": "3c769dca-51f3-426c-942f-71c4d3af6202"
+                        },
+                        "id": "d6d2de16-20ae-416e-bc17-f7edb051dd7b"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "My apologies,\nMs Pmav!",
+                            "I didn't mean\nto alarm you."
+                          ],
+                          "__section": "text",
+                          "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "df29653c-768f-4763-a7e1-6540ef187e51"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "No worries,\ndear scrub.",
+                            "I was so locked in\ntrying to rank\nPlatinum.",
+                            "That I didn't \nhear you open the\ndoor.",
+                            "What can ol' \nMs Pmav do\nfor you?"
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "c10a9b35-8190-4a9d-9e23-5911df28be40"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "I am on a quest!",
+                            "My Mother\nrequests your\nfinest...",
+                            "... Minion\ntableware!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "55541167-75d3-42c8-8f10-02e8d67371d6"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Oh, does she now?",
+                            "I still haven't \nforgiven her,\nyou know..",
+                            "She stained my\ncustom Miku\nbodypillow!",
+                            "I don't care what\nshe says!",
+                            "Those stains were\nNOT there before."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "a59548b2-8d98-488b-b66b-d62a0c999e4d"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_EMOTE",
+                        "args": {
+                          "actorId": "player",
+                          "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+                        },
+                        "id": "5393c9a2-801e-4d4f-97c1-0aace7c3925b"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Well, erm..",
+                            "ACTUALLY..",
+                            "Mayhaps the\ngentlesir before\nyou...",
+                            "Played a role in\nthat unfortunate\nmishap."
+                          ],
+                          "__section": "text",
+                          "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "3c6000e5-5ea5-488b-8374-874ee9330ade"
+                      },
+                      {
+                        "command": "EVENT_WAIT",
+                        "args": {
+                          "time": 0.3,
+                          "frames": 30
+                        },
+                        "id": "cfc3c1ad-0696-413a-b1fc-5349e034af19"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "And by that I\nmean-"
+                          ],
+                          "__section": "behavior",
+                          "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "text",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.3,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "95803b77-8863-4aff-9c0f-2cfeab49ebfa"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Please stop\ntalking."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": 0,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "651c8fdf-8f86-47b0-832b-22dfa7867606"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Hmm...",
+                            "How about this?",
+                            "You bring me\nsomething and the\nplates are yours."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "b2c179c7-950a-4b57-8f12-0a266e34ff56"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Ah!",
+                            "A classic \nquid-pro-quo!",
+                            "Most\npresidential!",
+                            "How may I be of\nassistance?"
+                          ],
+                          "__section": "text",
+                          "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "c69737e9-d8a0-41d3-b6aa-7668c0a65741"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "I dropped my \nchalice into the\nbasement.",
+                            "Unfortunately,\nit's comically \nmaze-like.",
+                            "I need my chalice\nto rank Platinum\nin League.",
+                            "It holds my last\nreserves of fresh\nblo-",
+                            "Um... uhh",
+                            "Fresh Gamer Supps\nRed40, I mean.",
+                            "I can't clutch\nsily-style without\nmy Red40.",
+                            "Bring me the \nchalice and the\nplates are yours."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "9c6a36ba-8a64-4402-96d4-c55c8baf9d13"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Very well!\nI shall venture\nout at once!"
+                          ],
+                          "__section": "text",
+                          "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "7316312b-a3db-479d-a2d2-37ed29767058"
+                      },
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Thanks, Judas.",
+                            "The stairs in the\ncorner lead to the\nbasement."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "4959bc94-534f-4eea-a6ee-c696c9b4884c"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                        "args": {
+                          "actorId": "$self$",
+                          "direction": {
+                            "type": "direction",
+                            "value": "up"
+                          }
+                        },
+                        "id": "a6ce24d1-e86e-40b6-9810-6a9279f8a939"
+                      },
+                      {
+                        "command": "EVENT_INC_VALUE",
+                        "args": {
+                          "variable": "8"
+                        },
+                        "id": "dfbb69fc-608d-4965-8cfd-e65c82a4f2b4"
+                      }
+                    ],
+                    "false": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Ms Pmav is busy\ngaming."
+                          ],
+                          "__section": "text",
+                          "avatarId": "",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "0f479745-b58d-4822-b2e8-8e798bd0d005"
+                      },
+                      {
+                        "command": "EVENT_ACTOR_SET_DIRECTION",
+                        "args": {
+                          "actorId": "$self$",
+                          "direction": {
+                            "type": "direction",
+                            "value": "up"
+                          }
+                        },
+                        "id": "55c16320-e580-484b-9aac-be5f0e1ae9e1"
+                      }
+                    ]
+                  },
+                  "id": "1483de1c-7208-43db-a048-8e58d56589f9"
                 }
               ]
             },
-            "id": "80ddbcc3-82c2-4e51-934d-e32b5e638edc"
+            "id": "4ef80227-9e8a-428c-8296-8a035615ea22"
           }
         ]
       },
-      "id": "f54f49dc-b0d7-4623-ad7f-43d2da09b5e2"
+      "id": "2f021aa9-ab25-4cf9-b78e-fd22feb31d50"
     }
   ],
   "startScript": [],
