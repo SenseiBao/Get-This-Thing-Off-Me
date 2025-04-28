@@ -135,15 +135,13 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Pordan Jeterson,\nI've seen things\nyou wouldn't\nbelieve...",
-                "...but I guess you\nalready know that,\nhuh?",
-                "Listen here,\nbucko.",
-                "Enjoy being\nSuitless while you\nstill can.",
-                "Oh these suits\nreally are a trip.",
-                "Offer protection\nfrom the vampires,\nthey said.",
-                "Oh yeah? But at\nwhat cost?",
-                "We sold our souls\nfor these suits!",
-                "You're trapped in\nit, physically and\nmentally.",
+                "Listen here,\nbucko.\n\n",
+                "Enjoy being\nSuitless while you\nstill can.\n",
+                "Oh these suits\nreally are a trip.\n\n",
+                "Offer protection\nfrom the vampires,\nthey said.\n",
+                "Oh yeah? But at\nwhat cost?\n",
+                "We sold our souls\nfor these suits!\n",
+                "You're trapped in\nit, physically and\nmentally.\n",
                 "Might as well be\nwearing chains and\ncalling it\n\"freedom.\""
               ],
               "__section": "text",
@@ -229,7 +227,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                ""
+                "Jeterson breaks\ndown in tears and\nruns away."
               ],
               "__section": "text",
               "avatarId": "",
@@ -249,6 +247,73 @@
               "closeDelayFrames": 30
             },
             "id": "8720884d-4a91-4d95-8bef-1ece86e06be1"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "8c9b59a5-a99e-4d19-90c5-9debc59bbe26",
+              "x": {
+                "type": "number",
+                "value": 7
+              },
+              "y": {
+                "type": "number",
+                "value": 30
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "59b8c6f7-4525-492a-bc63-4c2b2c87bfeb"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "As look after him,\nyou seem him\ngnawing tree sap."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c0cd5288-db30-4997-92c7-d24d7c1b5085"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "That Jeter fella\nsure is smart!"
+              ],
+              "__section": "text",
+              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "d5ca09c7-3dc7-4ec2-97fc-4c7f1a30c066"
           }
         ],
         "false": []
