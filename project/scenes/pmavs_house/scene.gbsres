@@ -15,7 +15,60 @@
   "symbol": "scene_12",
   "x": 816,
   "y": 952,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "ne",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "You see a frail\nold woman.",
+                "You recognize that\nthe woman is \nMs Pmav.",
+                "She faces away\nfrom you.",
+                "Her attention \noccupied by her\ngaming PC.",
+                "You notice that\nher suit is old\nand dirty."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "95bbc5e1-8595-40c4-b490-e8e4fbd7048e"
+          }
+        ],
+        "false": []
+      },
+      "id": "499420df-5835-4fc9-8065-482d2e03e878"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []
