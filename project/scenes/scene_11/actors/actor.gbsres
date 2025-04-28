@@ -17,7 +17,15 @@
   "symbol": "actor_18",
   "script": [],
   "startScript": [],
-  "updateScript": [],
+  "updateScript": [
+    {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "2b313397-0aa4-4330-b73d-ce4a6bf2e87d"
+      },
+      "id": "48a81743-7c99-4236-b3c8-cf1c14d985d7"
+    }
+  ],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
