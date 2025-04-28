@@ -8,5 +8,6 @@
   "imageWidth": 320,
   "imageHeight": 400,
   "filename": "vampires_hut.png",
-  "tileColors": "017d0+"
+  "tileColors": "017d0+",
+  "autoColor": false
 }

@@ -3,10 +3,10 @@
   "id": "62bbc2b8-197f-4f96-8543-1fb5538e4479",
   "name": "pmav",
   "symbol": "sprite_actor_copy",
-  "numFrames": 3,
+  "numFrames": 6,
   "filename": "pmav.png",
-  "checksum": "8646d62a30fe76f9e39e3dbdb23aab0182a33146",
-  "width": 48,
+  "checksum": "6c7219fe777052ce3a5c50fa51db9fb2fc6eb397",
+  "width": 96,
   "height": 16,
   "states": [
     {
