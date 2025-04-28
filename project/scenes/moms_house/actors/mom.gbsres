@@ -20,11 +20,11 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "So much to do,\nso little time...",
-          "What do you need,\nJudas?"
+          "So much to do,\nso little time..",
+          "How can I help,\nJudas?"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -74,7 +74,7 @@
               "text": [
                 "Oh, Judas. ",
                 "How could you \nforget?",
-                "We have like five\nhouses in the\nvillage."
+                "We have like 5\nhouses in the\nvillage."
               ],
               "__section": "text",
               "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
@@ -133,7 +133,7 @@
             "args": {
               "text": [
                 "*sigh*",
-                "It's the house in\nthe South-East\ncorner.",
+                "She lives in the\nSouth-East\ncorner.",
                 "Now hurry up!"
               ],
               "__section": "text",
@@ -255,7 +255,7 @@
                       "I hate\nthat those \nbloodsuckers \nwatch you from\nthe dark."
                     ],
                     "__section": "text",
-                    "avatarId": "9db8df4a-84a7-4f6b-94ed-3838b1ba16bc",
+                    "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
                     "minHeight": 4,
                     "maxHeight": 7,
                     "textX": 1,
@@ -280,7 +280,7 @@
                   "args": {
                     "text": [
                       "I heard they're\nmaking a new\nsuit model.",
-                      "It took me so long\nto get used to \nhaving fur."
+                      "It took me years\nto get used to \nhaving fur."
                     ],
                     "__section": "text",
                     "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
@@ -308,7 +308,8 @@
                   "args": {
                     "text": [
                       "I'm tired of \ngetting quizzed\nby bats.",
-                      "I don't even know\nwhat a \"SLAV2500\"\nis."
+                      "I don't even\nknow what a\n\"SLAV-2500\" is.",
+                      "Sounds like a \nSerbian Robocop\nremake."
                     ],
                     "__section": "text",
                     "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
