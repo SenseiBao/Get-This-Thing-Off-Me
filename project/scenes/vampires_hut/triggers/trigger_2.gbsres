@@ -1,0 +1,66 @@
+{
+  "_resourceType": "trigger",
+  "id": "b50c01f1-25b4-4fee-bc4c-8bfbaf9d814b",
+  "name": "",
+  "prefabId": "",
+  "x": 18,
+  "y": 11,
+  "symbol": "trigger_26",
+  "prefabScriptOverrides": {},
+  "width": 3,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "6"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "The door is\nlocked and won't\nbudge.",
+                "The woods are\neerily quiet\nback here.",
+                "You feel like\nyou're being\nwatched..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "939f111e-32b2-476c-a46b-b5ffdf3824be"
+          }
+        ]
+      },
+      "id": "d9277a03-8c0e-4722-8a61-c98ab9963c58"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}
