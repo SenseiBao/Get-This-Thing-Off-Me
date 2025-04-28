@@ -41,7 +41,7 @@
                 "Judas! Did you\nget the plates?"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -55,7 +55,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "1e838f4d-fe6e-4c85-8495-21f3542014c7"
           },
@@ -81,7 +82,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "02f0ac2a-80bd-4922-bfc6-a0b6ceab7a8d"
           },
@@ -89,7 +91,8 @@
             "command": "EVENT_ACTOR_EMOTE",
             "args": {
               "actorId": "$self$",
-              "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+              "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d",
+              "__collapse": true
             },
             "id": "3b64daab-d9de-4838-9f22-38c1f0f29e5d"
           },
@@ -102,7 +105,7 @@
                 "The ceremony is\nabout to start."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -116,7 +119,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "2c5f75db-0a36-405e-aed2-7dcd9f573a9d"
           },
@@ -133,7 +137,8 @@
                 "value": 14
               },
               "direction": "up",
-              "fadeSpeed": "2"
+              "fadeSpeed": "2",
+              "__collapse": true
             },
             "id": "5981b67e-c189-498a-983d-3e549316c042"
           }
@@ -157,7 +162,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -173,12 +178,12 @@
             "args": {
               "text": [
                 "You got the\nplates, Judas!",
-                "And just in time.",
+                "And just in\ntime too!",
                 "The ceremony is\nabout to start.",
                 "Let's go to the\nchurch!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,

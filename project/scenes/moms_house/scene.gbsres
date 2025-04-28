@@ -141,7 +141,7 @@
             "args": {
               "time": 0.3,
               "frames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "a8e7ee2b-501c-46a3-aaf5-2309de3adb8c"
           },
@@ -190,7 +190,7 @@
                 "There you are!\n\n"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -205,7 +205,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "046f8e27-a895-4dce-8c6f-26f23e842d30"
           },
@@ -223,7 +223,7 @@
               },
               "moveType": "vertical",
               "useCollisions": false,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "2e252366-cad3-4921-b73e-b48c297ce307"
           },
@@ -264,7 +264,7 @@
                 "Where have you \nbeen?\n"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -291,7 +291,7 @@
                 "I was admiring\nyour fine\ndaguerrotype!"
               ],
               "__section": "text",
-              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -365,10 +365,10 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "That's a 480p JPG\nI printed at the\nTown Hall Printer."
+                "That's a 480p\nJPG I printed\nout."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -402,10 +402,10 @@
               "text": [
                 "!S3!Anyway...\n\n",
                 "!S1!You ceremony is\ntonight.\n",
-                "We need the fancy\nplates."
+                "We need the\nfancy plates."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -432,7 +432,7 @@
                 "The plastic\nMinion-themed\nones?"
               ],
               "__section": "text",
-              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -456,21 +456,21 @@
             "args": {
               "text": [
                 "Haha, yes, son!",
-                "I fucking love\nthose silly yellow\nfellas!",
-                "I lost my original\nset.\n",
-                "The ceremony\nwouldn't be the\nsame without them.",
+                "I fucking love\nthose silly\nyellow fellas!",
+                "I lost my\noriginal set.\n",
+                "No mystic ritual\nis complete \nwithout them.",
                 "Would you be a\ndear and fetch\nmore for me?",
                 "I heard Ms Pmav\nmight have a few\nspares.",
                 "Hurry back.\nIt will be dark\nsoon.",
-                "!S3!We wouldn't want\nyou to be late\nfor Second Birth.",
-                "!S1!And also to avoid\nthe nightmarish\nvampires.",
+                "!S3!We wouldn't want\nyou to miss your\nSecond Birth.",
+                "!S1!And also to\navoid the awful\nvampires.",
                 "That stalk the\nnight in search\nof Suitless.",
-                "To feast on their\nflesh...\n",
+                "To feast on\ntheir flesh...\n",
                 "... and blood.\n",
                 "As is normal and\nregular in this\nuniverse."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -497,7 +497,7 @@
                 "I shall complete\nthis quest!"
               ],
               "__section": "text",
-              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -523,7 +523,7 @@
                 "Yeah, okay."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -538,7 +538,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "b1252fb8-80d7-4dab-a498-e59768f85bd6"
           },
