@@ -1,31 +1,80 @@
 {
   "_resourceType": "trigger",
-  "id": "26a360f2-16b8-4a56-bcaa-436c06dd825b",
+  "id": "7765a8cc-90b5-4bf5-b892-1e7fa1c22f76",
   "name": "",
   "prefabId": "",
-  "x": 26,
-  "y": 43,
-  "symbol": "trigger_0",
+  "x": 0,
+  "y": 16,
+  "symbol": "trigger_13",
   "prefabScriptOverrides": {},
-  "width": 4,
-  "height": 1,
+  "width": 1,
+  "height": 4,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_IF",
       "args": {
-        "sceneId": "bf6421ea-732f-4406-ac4f-02c1656df272",
-        "x": {
-          "type": "number",
-          "value": 13
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "10"
+          },
+          "valueB": {
+            "type": "false"
+          }
         },
-        "y": {
-          "type": "number",
-          "value": 2
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "__collapseElse": false
       },
-      "id": "a0a604b9-6f04-4dde-b871-72b8a34b1da7"
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I shouldn't\nwander outside the\nvillage.",
+                "Not before I get\nmy suit."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "c12593c1-02ed-4a4c-9b2f-9c454c6318a5"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "048c1953-bd18-416f-a385-155993e7deff",
+              "x": {
+                "type": "number",
+                "value": 20
+              },
+              "y": {
+                "type": "number",
+                "value": 22
+              },
+              "direction": "",
+              "fadeSpeed": "2"
+            },
+            "id": "3271f2f2-bedf-4d7f-aab6-24a00e57eee4"
+          }
+        ]
+      },
+      "id": "b2a2abac-845c-48ef-8d57-67469193854c"
     }
   ],
   "leaveScript": [],

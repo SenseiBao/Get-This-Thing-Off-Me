@@ -1,21 +1,86 @@
 {
   "_resourceType": "scene",
-  "id": "010fe956-706c-4c49-92b2-db3db66ac7f7",
-  "_index": 13,
+  "id": "73354586-b018-4aed-bb28-ed0dd7110ed3",
+  "_index": 7,
   "name": "Church",
-  "backgroundId": "fb2b3beb-0848-4833-9349-af774c01af1b",
+  "backgroundId": "92c28986-95dd-4966-b550-9237686040cd",
   "tilesetId": "",
-  "width": 20,
-  "height": 18,
+  "width": 32,
+  "height": 32,
   "type": "TOPDOWN",
-  "paletteIds": [],
+  "paletteIds": [
+    "default-bg-2"
+  ],
   "spritePaletteIds": [],
-  "collisions": "00168+",
+  "collisions": "0017+0f2+001e+0f2+00e+0f4+00c+0f2+00c+0f3+00!0f4+00a+0f3+00b+0f!006+0f!009+0f4+00b+0f!006+0f!009+0f2+00!0f2+00a+0f!006+0f!007+0f4+00!0f2+00a+0f!006+0f!005+0f5+002+0f5+007+0f8+004+0f5+003+0f6+0012+0f!002+0f2+008+0f!0012+0f!00b+0f2+0012+0f2+00a+0f2+0012+0f2+00a+0f2+0012+0f2+00a+0f2+003+0f2+005+0f2+004+0f4+00a+0f!004+0f2+005+0f2+004+0f2+00!0f!00a+0f!004+0f2+005+0f2+004+0f2+00!0f!00a+0f!004+0f2+005+0f2+004+0f2+00!0fc+00f0+0f2+005+0f2+006+0f2+00f+0f2+005+0f2+006+0f2+00a1+",
   "autoFadeSpeed": 1,
-  "symbol": "scene_14",
-  "x": 1488,
-  "y": 304,
-  "script": [],
+  "symbol": "scene_1",
+  "x": 1432,
+  "y": 568,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "9"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 0
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "9"
+            },
+            "id": "d044a4c4-e08e-4e39-ac17-e09e296109a0"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "As you walk to the\nchurch, you see\nPordan Jeterson.",
+                "He looks emaciated\nand distraught.",
+                "The fur on his\nface is always\nsoaked with tears.",
+                "And his face is\ncontorted in\nanguish.",
+                "Crusted tree sap\nglints in the sun\naround his mouth.",
+                "He mumbles to \nhimself as cries.",
+                "You hear something\nabout \"chaos\nvampires.\""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": false
+            },
+            "id": "eba051a7-28d3-4b96-a0d9-78c812a7fb1f"
+          }
+        ],
+        "false": []
+      },
+      "id": "701e9723-a57b-4aa8-952c-d5997717f8cb"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

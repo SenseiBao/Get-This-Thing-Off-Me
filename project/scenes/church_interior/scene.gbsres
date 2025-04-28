@@ -1,0 +1,22 @@
+{
+  "_resourceType": "scene",
+  "id": "010fe956-706c-4c49-92b2-db3db66ac7f7",
+  "_index": 13,
+  "name": "Church Interior",
+  "backgroundId": "fb2b3beb-0848-4833-9349-af774c01af1b",
+  "tilesetId": "",
+  "width": 20,
+  "height": 18,
+  "type": "TOPDOWN",
+  "paletteIds": [],
+  "spritePaletteIds": [],
+  "collisions": "00168+",
+  "autoFadeSpeed": 1,
+  "symbol": "scene_14",
+  "x": 1488,
+  "y": 304,
+  "script": [],
+  "playerHit1Script": [],
+  "playerHit2Script": [],
+  "playerHit3Script": []
+}
