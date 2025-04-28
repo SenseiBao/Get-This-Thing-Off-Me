@@ -21,8 +21,8 @@
       "args": {
         "text": [
           "It's a tombstone..",
-          "The ground has \nbeen disturbed",
-          "Probably just\nsome grave diggers"
+          "The ground has \nbeen disturbed.",
+          "Probably just\nsome grave\ndiggers."
         ],
         "__section": "text",
         "avatarId": "",

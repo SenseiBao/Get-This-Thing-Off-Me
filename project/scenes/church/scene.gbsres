@@ -15,8 +15,8 @@
   "collisions": "0017+0f2+001e+0f2+00e+0f4+00c+0f2+00c+0f3+00!0f4+00a+0f3+00b+0f!006+0f!009+0f4+00b+0f!006+0f!009+0f2+00!0f2+00a+0f!006+0f!007+0f4+00!0f2+00a+0f!006+0f!005+0f5+002+0f5+007+0f8+004+0f5+003+0f6+0012+0f!002+0f2+008+0f!0012+0f!00b+0f2+0012+0f2+00a+0f2+0012+0f2+00a+0f2+0012+0f2+00a+0f2+003+0f2+005+0f2+004+0f4+00a+0f!004+0f2+005+0f2+004+0f2+00!0f!00a+0f!004+0f2+005+0f2+004+0f2+00!0f!00a+0f!004+0f2+005+0f2+004+0f2+00!0fc+00f0+0f2+005+0f2+006+0f2+00f+0f2+005+0f2+006+0f2+00a1+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 1432,
-  "y": 568,
+  "x": 1480,
+  "y": 1008,
   "script": [
     {
       "command": "EVENT_IF",
@@ -32,7 +32,8 @@
             "value": 0
           }
         },
-        "__collapseElse": true
+        "__collapseElse": true,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -53,7 +54,8 @@
                 "And his face is\ncontorted in\nanguish.",
                 "Crusted tree sap\nglints in the sun\naround his mouth.",
                 "He mumbles to \nhimself as cries.",
-                "You hear something\nabout \"chaos\nvampires.\""
+                "You hear something\nabout \"chaos\nvampires.\"",
+                "He notices you looking at him\nand turns to face you."
               ],
               "__section": "text",
               "avatarId": "",
@@ -74,6 +76,179 @@
               "__collapse": false
             },
             "id": "eba051a7-28d3-4b96-a0d9-78c812a7fb1f"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "8c9b59a5-a99e-4d19-90c5-9debc59bbe26",
+              "direction": {
+                "type": "direction",
+                "value": "up"
+              }
+            },
+            "id": "0efbe4d3-299c-447d-a96c-801c9f196f5b"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "He approaches you\nand starts to\nspeak.",
+                "His voice is\nwhiny and grating."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "b45ef20d-5a8b-4d71-ba47-7081b74c7914"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "8c9b59a5-a99e-4d19-90c5-9debc59bbe26",
+              "x": {
+                "type": "number",
+                "value": 6
+              },
+              "y": {
+                "type": "number",
+                "value": 22
+              },
+              "moveType": "vertical",
+              "useCollisions": false
+            },
+            "id": "957eccf1-cf6f-4807-b376-a9dc8c66141c"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Pordan Jeterson,\nI've seen things\nyou wouldn't\nbelieve...",
+                "...but I guess you\nalready know that,\nhuh?",
+                "Listen here,\nbucko.",
+                "Enjoy being\nSuitless while you\nstill can.",
+                "Oh these suits\nreally are a trip.",
+                "Offer protection\nfrom the vampires,\nthey said.",
+                "Oh yeah? But at\nwhat cost?",
+                "We sold our souls\nfor these suits!",
+                "You're trapped in\nit, physically and\nmentally.",
+                "Might as well be\nwearing chains and\ncalling it\n\"freedom.\""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "29b3ff4a-1729-4f9f-b5c5-650f5800dc1d"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Erm, well..."
+              ],
+              "__section": "text",
+              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "32a04dfd-919f-4849-9ca7-39e4291e57d7"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "No \"erm\" about it,\nbucko! *sob*",
+                "They're not out\nthere!",
+                "They said the \nsuits will keep\nvampires away.",
+                "But all we did \nwas let the Chaos\nVampires *sob*",
+                "Infect our hearts.",
+                "The vampires in\nthe woods...",
+                "They are the\nservants of order!",
+                "*shuddering sob*",
+                "Man was not meant\nto go against \nnature!",
+                "They hunt us \nbecause we wear\nthe suits!",
+                "Not inspite of \nthem!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ef47c6ac-583a-4243-9015-e59ab824273f"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                ""
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "8720884d-4a91-4d95-8bef-1ece86e06be1"
           }
         ],
         "false": []
