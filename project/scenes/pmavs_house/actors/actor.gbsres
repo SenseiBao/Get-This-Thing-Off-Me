@@ -41,7 +41,7 @@
                 "Ah... Splendid!",
                 "You found my\nyummy Red40!",
                 "The plates are\nyours.",
-                "Now leave me be,\nI have work to do!"
+                "Now leave me be.\nI have work to do!"
               ],
               "__section": "text",
               "avatarId": "",
@@ -61,6 +61,56 @@
               "closeDelayFrames": 30
             },
             "id": "245254d3-0795-4048-8ea7-372f39540862"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Item received:\nMinion Plates"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "8c453298-7d75-4f99-bdf3-cd1dc9e96aa1"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I should hurry\nhome to give \nthese to Mother!"
+              ],
+              "__section": "text",
+              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "65200961-e2fa-4d9c-8543-b40d3de80462"
           }
         ],
         "false": [

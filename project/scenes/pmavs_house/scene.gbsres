@@ -17,6 +17,17 @@
   "y": 952,
   "script": [
     {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "8",
+        "value": {
+          "type": "number",
+          "value": 0
+        }
+      },
+      "id": "dfccfd9d-20db-4e13-99b2-59d240d367fa"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -27,7 +38,7 @@
           },
           "valueB": {
             "type": "number",
-            "value": 1
+            "value": 0
           }
         },
         "__collapseElse": true

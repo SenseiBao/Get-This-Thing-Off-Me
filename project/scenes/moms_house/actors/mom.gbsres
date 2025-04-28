@@ -17,51 +17,17 @@
   "symbol": "actor_7",
   "script": [
     {
-      "command": "EVENT_TEXT",
-      "args": {
-        "text": [
-          "So much to do,\nso little time..",
-          "How can I help,\nJudas?"
-        ],
-        "__section": "text",
-        "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
-        "minHeight": 4,
-        "maxHeight": 7,
-        "textX": 1,
-        "textY": 1,
-        "textHeight": 5,
-        "position": "bottom",
-        "clearPrevious": true,
-        "showFrame": "true",
-        "speedIn": -1,
-        "speedOut": -1,
-        "closeWhen": "key",
-        "closeButton": "a",
-        "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
-      },
-      "id": "210d17ca-2279-467c-9233-5f9f37b42b30"
-    },
-    {
-      "command": "EVENT_CHOICE",
-      "args": {
-        "variable": "L5",
-        "trueText": "Where is Ms Pmav?",
-        "falseText": "Rumors"
-      },
-      "id": "5b6199c4-b5bf-45c2-a9b5-0781b32cd5ff"
-    },
-    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
           "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "L5"
+            "value": "1"
           },
           "valueB": {
-            "type": "true"
+            "type": "number",
+            "value": 1
           }
         },
         "__collapseElse": false
@@ -72,12 +38,13 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Oh, Judas. ",
-                "How could you \nforget?",
-                "We have like 5\nhouses in the\nvillage."
+                "You got the\nplates, Judas!",
+                "And just in time.",
+                "The ceremony is\nabout to start.",
+                ""
               ],
               "__section": "text",
-              "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
+              "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -93,138 +60,72 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "f14e6722-82a0-4a20-8bea-50c28c8708dc"
-          },
-          {
-            "command": "EVENT_ACTOR_EMOTE",
-            "args": {
-              "actorId": "player",
-              "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
-            },
-            "id": "9e033f12-125a-4161-b87a-9d6597db8d28"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "... I'm sorry."
-              ],
-              "__section": "text",
-              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "d9ab1ecc-9415-4de9-91e8-ccfc3e32abe3"
-          },
-          {
-            "command": "EVENT_TEXT",
-            "args": {
-              "text": [
-                "*sigh*",
-                "She lives in the\nSouth-East\ncorner.",
-                "Now hurry up!"
-              ],
-              "__section": "text",
-              "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
-              "minHeight": 4,
-              "maxHeight": 7,
-              "textX": 1,
-              "textY": 1,
-              "textHeight": 5,
-              "position": "bottom",
-              "clearPrevious": true,
-              "showFrame": "true",
-              "speedIn": -1,
-              "speedOut": -1,
-              "closeWhen": "key",
-              "closeButton": "a",
-              "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
-            },
-            "id": "d378018b-b0bb-40cb-9c3c-0846b176eec6"
+            "id": "e9c14f49-777b-4694-ab4c-2a9db7763a87"
           }
         ],
         "false": [
           {
-            "command": "EVENT_COMMENT",
+            "command": "EVENT_TEXT",
             "args": {
-              "text": "Add rumors below.\n"
+              "text": [
+                "So much to do,\nso little time..",
+                "How can I help,\nJudas?"
+              ],
+              "__section": "text",
+              "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
-            "id": "3ae3ada6-a6ac-40ac-845d-2d91d553701a"
+            "id": "210d17ca-2279-467c-9233-5f9f37b42b30"
           },
           {
-            "command": "EVENT_VARIABLE_MATH",
+            "command": "EVENT_CHOICE",
             "args": {
-              "vectorX": "L4",
-              "operation": "set",
-              "other": "rnd",
-              "vectorY": "L0",
-              "value": "0",
-              "minValue": 1,
-              "maxValue": 4,
-              "clamp": false
+              "variable": "L5",
+              "trueText": "Where is Ms Pmav?",
+              "falseText": "Rumors",
+              "__collapse": true
             },
-            "id": "c749dd0f-09fe-4b0e-9e8b-1e0d1b0cd228"
+            "id": "5b6199c4-b5bf-45c2-a9b5-0781b32cd5ff"
           },
           {
-            "command": "EVENT_SWITCH",
+            "command": "EVENT_IF",
             "args": {
-              "variable": "L4",
-              "choices": 4,
-              "__collapseCase0": false,
-              "value0": 1,
-              "__collapseCase1": false,
-              "value1": 2,
-              "__collapseCase2": false,
-              "value2": 3,
-              "__collapseCase3": false,
-              "value3": 4,
-              "__collapseCase4": false,
-              "value4": 5,
-              "__collapseCase5": false,
-              "value5": 6,
-              "__collapseCase6": false,
-              "value6": 7,
-              "__collapseCase7": false,
-              "value7": 8,
-              "__collapseCase8": false,
-              "value8": 9,
-              "__collapseCase9": false,
-              "value9": 10,
-              "__collapseCase10": false,
-              "value10": 11,
-              "__collapseCase11": false,
-              "value11": 12,
-              "__collapseCase12": false,
-              "value12": 13,
-              "__collapseCase13": false,
-              "value13": 14,
-              "__collapseCase14": false,
-              "value14": 15,
-              "__collapseCase15": false,
-              "value15": 16,
-              "__collapseElse": false
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "L5"
+                },
+                "valueB": {
+                  "type": "true"
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
             },
             "children": {
-              "true0": [
+              "true": [
                 {
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Dr Jeterson has\nbeen crying every\nday by the church.",
-                      "His \"tree sap\nonly\" diet will be\nthe death of him."
+                      "Oh, Judas. ",
+                      "How could you \nforget?",
+                      "We have like 5\nhouses in the\nvillage."
                     ],
                     "__section": "text",
                     "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
@@ -243,16 +144,48 @@
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30
                   },
-                  "id": "4e36e7fe-6f8a-4144-bf8e-8debe3d868d1"
-                }
-              ],
-              "true1": [
+                  "id": "f14e6722-82a0-4a20-8bea-50c28c8708dc"
+                },
+                {
+                  "command": "EVENT_ACTOR_EMOTE",
+                  "args": {
+                    "actorId": "player",
+                    "emoteId": "d508e529-57eb-458b-9782-66f318243c32"
+                  },
+                  "id": "9e033f12-125a-4161-b87a-9d6597db8d28"
+                },
                 {
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "I stopped going\ninto the woods.",
-                      "I hate\nthat those \nbloodsuckers \nwatch you from\nthe dark."
+                      "... I'm sorry."
+                    ],
+                    "__section": "text",
+                    "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "d9ab1ecc-9415-4de9-91e8-ccfc3e32abe3"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "*sigh*",
+                      "She lives in the\nSouth-East\ncorner.",
+                      "Now hurry up!"
                     ],
                     "__section": "text",
                     "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
@@ -271,85 +204,207 @@
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30
                   },
-                  "id": "c9950214-6544-4a77-8c46-aed078835aff"
+                  "id": "d378018b-b0bb-40cb-9c3c-0846b176eec6"
                 }
               ],
-              "true2": [
+              "false": [
                 {
-                  "command": "EVENT_TEXT",
+                  "command": "EVENT_COMMENT",
                   "args": {
-                    "text": [
-                      "I heard they're\nmaking a new\nsuit model.",
-                      "It took me years\nto get used to \nhaving fur."
-                    ],
-                    "__section": "text",
-                    "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
+                    "text": "Add rumors below.\n"
                   },
-                  "id": "544658e3-2197-4cbf-84fd-ebf8f00d63c6"
-                }
-              ],
-              "true3": [
+                  "id": "3ae3ada6-a6ac-40ac-845d-2d91d553701a"
+                },
                 {
-                  "command": "EVENT_TEXT",
+                  "command": "EVENT_VARIABLE_MATH",
                   "args": {
-                    "text": [
-                      "I'm tired of \ngetting quizzed\nby bats.",
-                      "I don't even\nknow what a\n\"SLAV-2500\" is.",
-                      "Sounds like a \nSerbian Robocop\nremake."
-                    ],
-                    "__section": "text",
-                    "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
-                    "minHeight": 4,
-                    "maxHeight": 7,
-                    "textX": 1,
-                    "textY": 1,
-                    "textHeight": 5,
-                    "position": "bottom",
-                    "clearPrevious": true,
-                    "showFrame": "true",
-                    "speedIn": -1,
-                    "speedOut": -1,
-                    "closeWhen": "key",
-                    "closeButton": "a",
-                    "closeDelayTime": 0.5,
-                    "closeDelayFrames": 30
+                    "vectorX": "L4",
+                    "operation": "set",
+                    "other": "rnd",
+                    "vectorY": "L0",
+                    "value": "0",
+                    "minValue": 1,
+                    "maxValue": 4,
+                    "clamp": false
                   },
-                  "id": "16493fdb-d88d-4266-bb17-da8f1e7b2545"
+                  "id": "c749dd0f-09fe-4b0e-9e8b-1e0d1b0cd228"
+                },
+                {
+                  "command": "EVENT_SWITCH",
+                  "args": {
+                    "variable": "L4",
+                    "choices": 4,
+                    "__collapseCase0": false,
+                    "value0": 1,
+                    "__collapseCase1": false,
+                    "value1": 2,
+                    "__collapseCase2": false,
+                    "value2": 3,
+                    "__collapseCase3": false,
+                    "value3": 4,
+                    "__collapseCase4": false,
+                    "value4": 5,
+                    "__collapseCase5": false,
+                    "value5": 6,
+                    "__collapseCase6": false,
+                    "value6": 7,
+                    "__collapseCase7": false,
+                    "value7": 8,
+                    "__collapseCase8": false,
+                    "value8": 9,
+                    "__collapseCase9": false,
+                    "value9": 10,
+                    "__collapseCase10": false,
+                    "value10": 11,
+                    "__collapseCase11": false,
+                    "value11": 12,
+                    "__collapseCase12": false,
+                    "value12": 13,
+                    "__collapseCase13": false,
+                    "value13": 14,
+                    "__collapseCase14": false,
+                    "value14": 15,
+                    "__collapseCase15": false,
+                    "value15": 16,
+                    "__collapseElse": false
+                  },
+                  "children": {
+                    "true0": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "Dr Jeterson has\nbeen crying every\nday by the church.",
+                            "His \"tree sap\nonly\" diet will be\nthe death of him."
+                          ],
+                          "__section": "text",
+                          "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "4e36e7fe-6f8a-4144-bf8e-8debe3d868d1"
+                      }
+                    ],
+                    "true1": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "I stopped going\ninto the woods.",
+                            "I hate\nthat those \nbloodsuckers \nwatch you from\nthe dark."
+                          ],
+                          "__section": "text",
+                          "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "c9950214-6544-4a77-8c46-aed078835aff"
+                      }
+                    ],
+                    "true2": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "I heard they're\nmaking a new\nsuit model.",
+                            "It took me years\nto get used to \nhaving fur."
+                          ],
+                          "__section": "text",
+                          "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "544658e3-2197-4cbf-84fd-ebf8f00d63c6"
+                      }
+                    ],
+                    "true3": [
+                      {
+                        "command": "EVENT_TEXT",
+                        "args": {
+                          "text": [
+                            "I'm tired of \ngetting quizzed\nby bats.",
+                            "I don't even\nknow what a\n\"SLAV-2500\" is.",
+                            "Sounds like a \nSerbian Robocop\nremake."
+                          ],
+                          "__section": "text",
+                          "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
+                          "minHeight": 4,
+                          "maxHeight": 7,
+                          "textX": 1,
+                          "textY": 1,
+                          "textHeight": 5,
+                          "position": "bottom",
+                          "clearPrevious": true,
+                          "showFrame": "true",
+                          "speedIn": -1,
+                          "speedOut": -1,
+                          "closeWhen": "key",
+                          "closeButton": "a",
+                          "closeDelayTime": 0.5,
+                          "closeDelayFrames": 30
+                        },
+                        "id": "16493fdb-d88d-4266-bb17-da8f1e7b2545"
+                      }
+                    ],
+                    "true4": [],
+                    "true5": [],
+                    "true6": [],
+                    "true7": [],
+                    "true8": [],
+                    "true9": [],
+                    "true10": [],
+                    "true11": [],
+                    "true12": [],
+                    "true13": [],
+                    "true14": [],
+                    "true15": [],
+                    "false": []
+                  },
+                  "id": "b40bf3ce-a067-4654-b1c5-01b41e44bb0d"
                 }
-              ],
-              "true4": [],
-              "true5": [],
-              "true6": [],
-              "true7": [],
-              "true8": [],
-              "true9": [],
-              "true10": [],
-              "true11": [],
-              "true12": [],
-              "true13": [],
-              "true14": [],
-              "true15": [],
-              "false": []
+              ]
             },
-            "id": "b40bf3ce-a067-4654-b1c5-01b41e44bb0d"
+            "id": "b31ed24f-d977-4add-8c01-e99373575ed5"
           }
         ]
       },
-      "id": "b31ed24f-d977-4add-8c01-e99373575ed5"
+      "id": "ec5462ab-103f-4a5c-aeb6-12374135355c"
     }
   ],
   "startScript": [
@@ -396,7 +451,7 @@
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 6,
+  "x": 7,
   "y": 6,
   "_index": 0
 }

@@ -41,7 +41,8 @@
             "value": 0
           }
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -374,7 +375,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "af253396-aaaa-422f-a4f9-3a6b94080bfa"
           },
@@ -438,7 +439,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "be916f94-74c8-44aa-b5f0-0e9ae0abd3bd"
           },
@@ -476,7 +477,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "ebdeb760-41a5-4125-ac74-3db78ba399c9"
           },
@@ -502,7 +503,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "1e1d0060-12b5-4406-962c-8c4e7cfc5c98"
           },
@@ -527,7 +529,8 @@
               "closeWhen": "key",
               "closeButton": "a",
               "closeDelayTime": 0.5,
-              "closeDelayFrames": 30
+              "closeDelayFrames": 30,
+              "__collapse": true
             },
             "id": "b1252fb8-80d7-4dab-a498-e59768f85bd6"
           },
@@ -544,7 +547,8 @@
                 "value": 6
               },
               "moveType": "horizontal",
-              "useCollisions": false
+              "useCollisions": false,
+              "__collapse": true
             },
             "id": "7b22bb84-95e8-4848-b085-b50ee91e04cd"
           }

@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "fb2b3beb-0848-4833-9349-af774c01af1b",
+  "name": "church_scene_placeholder",
+  "symbol": "bg_intro_scene_background_c",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "church_scene_placeholder.png",
+  "tileColors": ""
+}
