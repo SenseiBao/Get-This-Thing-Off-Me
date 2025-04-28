@@ -4,9 +4,9 @@
   "name": "Mom",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "ff9d0dc0-f384-4e54-b94c-cd7748adde24",
+  "spriteSheetId": "982f7782-68fe-4294-a73b-bc4d824fab44",
   "prefabId": "",
-  "direction": "right",
+  "direction": "down",
   "moveSpeed": 1,
   "animSpeed": 15,
   "paletteId": "",
@@ -77,7 +77,7 @@
                 "We have like five\nhouses in the\nvillage."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -137,7 +137,7 @@
                 "Now hurry up!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -227,7 +227,7 @@
                       "His \"tree sap\nonly\" diet will be\nthe death of him."
                     ],
                     "__section": "text",
-                    "avatarId": "",
+                    "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
                     "minHeight": 4,
                     "maxHeight": 7,
                     "textX": 1,
@@ -252,10 +252,10 @@
                   "args": {
                     "text": [
                       "I stopped going\ninto the woods.",
-                      "I hate the way\nthe monsters watch\nyou from the dark."
+                      "I hate\nthat those \nbloodsuckers \nwatch you from\nthe dark."
                     ],
                     "__section": "text",
-                    "avatarId": "",
+                    "avatarId": "9db8df4a-84a7-4f6b-94ed-3838b1ba16bc",
                     "minHeight": 4,
                     "maxHeight": 7,
                     "textX": 1,
@@ -283,7 +283,7 @@
                       "It took me so long\nto get used to \nhaving fur."
                     ],
                     "__section": "text",
-                    "avatarId": "",
+                    "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
                     "minHeight": 4,
                     "maxHeight": 7,
                     "textX": 1,
@@ -311,7 +311,7 @@
                       "I don't even know\nwhat a \"SLAV2500\"\nis."
                     ],
                     "__section": "text",
-                    "avatarId": "",
+                    "avatarId": "af9dc51c-d3d1-47da-a63a-5b99ec86f8c2",
                     "minHeight": 4,
                     "maxHeight": 7,
                     "textX": 1,

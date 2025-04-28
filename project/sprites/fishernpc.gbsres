@@ -1,10 +1,10 @@
 {
   "_resourceType": "sprite",
   "id": "03f88f40-cfbc-415c-a938-3614762e0dcf",
-  "name": "NPC",
+  "name": "FisherNPC",
   "symbol": "sprite_npc",
   "numFrames": 6,
-  "filename": "NPC.png",
+  "filename": "FisherNPC.png",
   "checksum": "a1b38ffd85522adab9ea72e932d05a6e2d35a70a",
   "width": 96,
   "height": 16,
