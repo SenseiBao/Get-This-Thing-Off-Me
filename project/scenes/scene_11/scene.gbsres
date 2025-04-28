@@ -10,7 +10,7 @@
   "type": "TOPDOWN",
   "paletteIds": [],
   "spritePaletteIds": [],
-  "collisions": "001e0+",
+  "collisions": "0026+0f18+00!0f2+0016+0f2+005+0f2+0018+0f2+0011+0f2+003+0f6+008d+0f4+0057+0f2+001a+0f6+0012+0f6+0012+0f6+0010+",
   "autoFadeSpeed": 1,
   "symbol": "scene_11",
   "x": 784,
