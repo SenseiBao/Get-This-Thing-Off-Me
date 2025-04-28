@@ -1,4 +1,7 @@
-Player sprite - edited version of GB studio default template
+Player sprites
+1) edited version of GB studio default template
+2) Sprite 21 from Wintonson's "PokemonTCGAA" asset pack. https://wintonson.itch.io/gb-studio-sprites/download/eyJleHBpcmVzIjoxNzQ1ODgwNDcxLCJpZCI6MTAyODc2N30%3d%2erylncKcvgqqsCBnogAo1it0SUIA%3d
+
 Sound effects - https://coffeevalenbat.itch.io/sweet-sounds-sfx-pack
 
 Used Tilesets:
