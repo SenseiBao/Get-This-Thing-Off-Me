@@ -8,6 +8,5 @@
   "imageWidth": 208,
   "imageHeight": 304,
   "filename": "church_interior.png",
-  "tileColors": "023dc+",
-  "autoColor": false
+  "tileColors": "023dc+"
 }

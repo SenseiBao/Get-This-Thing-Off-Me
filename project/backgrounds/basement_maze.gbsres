@@ -8,6 +8,5 @@
   "imageWidth": 400,
   "imageHeight": 400,
   "filename": "basement_maze.png",
-  "tileColors": "",
-  "autoColor": false
+  "tileColors": ""
 }
