@@ -3,22 +3,203 @@
   "id": "dc68c790-5b1a-4f58-be9b-c89101cadd4b",
   "_index": 1,
   "name": "Maze",
-  "backgroundId": "862898f0-ef08-48a5-959b-6607c2c9e167",
+  "backgroundId": "e5ff22ad-f322-4e9a-a641-305d4f51ecfd",
   "tilesetId": "",
-  "width": 40,
-  "height": 36,
+  "width": 50,
+  "height": 50,
   "type": "TOPDOWN",
   "paletteIds": [
     "default-bg-2",
     "default-bg-1"
   ],
   "spritePaletteIds": [],
-  "collisions": "0f12+002+0f26+002+0f18+0022+0f6+0022+0fa+002+0f8+002+0fc+002+0f2+002+0fa+002+0f8+002+0fc+002+0f2+002+0f4+0020+0f2+002+0f4+0020+0f2+002+0f4+002+0f6+002+0fc+002+0f2+002+0f2+002+0f2+002+0f4+002+0f6+002+0fc+002+0f2+002+0f2+002+0f2+002+0f4+002+0f2+006+0f2+008+0f2+002+0f2+002+0f2+002+0f2+002+0f4+002+0f2+006+0f2+008+0f2+002+0f2+002+0f2+002+0f2+002+0f4+002+0f14+002+0f2+002+0f2+006+0f4+002+0f14+002+0f2+002+0f2+006+0f4+002+0f4+006+0f2+00a+0f2+002+0f2+002+0f2+002+0f4+002+0f4+006+0f2+00a+0f2+002+0f2+002+0f8+008+0f2+002+0f2+002+0fe+002+0f8+008+0f2+002+0f2+002+0fe+002+0f12+002+0f2+00e+0f2+006+0fe+002+0f2+00e+0f2+006+0f4+008+0f2+002+0f2+002+0f12+002+0f4+008+0f2+002+0f2+002+0f12+002+0fe+0016+0f2+002+0fe+0016+0f2+002+0f4+00c+0fa+002+0f6+002+0f2+002+0f4+00c+0fa+002+0f6+002+0f2+002+0f4+002+0f6+002+0f4+002+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f4+002+0f6+002+0f4+002+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f4+002+0f2+002+0f2+008+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f4+002+0f2+002+0f2+008+0f2+002+0f2+002+0f2+002+0f2+002+0f2+002+0f4+002+0f2+002+0f2+002+0f4+002+0f2+002+0f2+002+0f2+002+0f6+002+0f4+002+0f2+002+0f2+002+0f4+002+0f2+002+0f2+002+0f2+002+0f6+002+0f8+002+0f6+008+0f2+002+0f2+006+0fc+002+0f6+008+0f2+002+0f2+006+0f56+",
-  "autoFadeSpeed": 1,
+  "collisions": "009c4+",
+  "autoFadeSpeed": 2,
   "symbol": "scene_0",
-  "x": 968,
+  "x": 920,
   "y": 1224,
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Pmav's basement\nreally is a maze.",
+          "The air is stale\nand musty.",
+          "A bitter-sweet\ncorpse-smell\ntickles your nose.",
+          "You don't want to\nbe down here.",
+          "You could leave...",
+          "Are Minion plates\nreally worth your\nlife?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "88fd040f-c62c-44d1-9882-487d9db3f52d"
+    },
+    {
+      "command": "EVENT_MENU",
+      "args": {
+        "variable": "7",
+        "items": 2,
+        "option1": "Run away",
+        "option2": "Continue",
+        "option3": "",
+        "option4": "",
+        "option5": "",
+        "option6": "",
+        "option7": "",
+        "option8": "",
+        "cancelOnB": true,
+        "layout": "dialogue"
+      },
+      "id": "e5670ff4-ecde-4800-96fb-c15246fd5755"
+    },
+    {
+      "command": "EVENT_SWITCH",
+      "args": {
+        "variable": "7",
+        "choices": 2,
+        "__collapseCase0": false,
+        "value0": 1,
+        "__collapseCase1": false,
+        "value1": 2,
+        "__collapseCase2": false,
+        "value2": 3,
+        "__collapseCase3": false,
+        "value3": 4,
+        "__collapseCase4": false,
+        "value4": 5,
+        "__collapseCase5": false,
+        "value5": 6,
+        "__collapseCase6": false,
+        "value6": 7,
+        "__collapseCase7": false,
+        "value7": 8,
+        "__collapseCase8": false,
+        "value8": 9,
+        "__collapseCase9": false,
+        "value9": 10,
+        "__collapseCase10": false,
+        "value10": 11,
+        "__collapseCase11": false,
+        "value11": 12,
+        "__collapseCase12": false,
+        "value12": 13,
+        "__collapseCase13": false,
+        "value13": 14,
+        "__collapseCase14": false,
+        "value14": 15,
+        "__collapseCase15": false,
+        "value15": 16,
+        "__collapseElse": false
+      },
+      "children": {
+        "true0": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "They say,\nthat gamers\nnever die...",
+                "They respawn.",
+                "But I am NOT\ngoing to test\nthat out."
+              ],
+              "__section": "text",
+              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "0975bd04-052a-476d-bd44-ac466efb1a99"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "7f1024a7-8e4b-4516-9199-99324665c848",
+              "x": {
+                "type": "number",
+                "value": 13
+              },
+              "y": {
+                "type": "number",
+                "value": 15
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "49257cbc-dd87-495f-8f95-932bb3d06257"
+          }
+        ],
+        "true1": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I am a\nquest-pilled\nitemcel!",
+                "I will not betray\nmy mother's trust!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "794598f3-7642-4d83-a9c6-256beaa08cad"
+          }
+        ],
+        "true2": [],
+        "true3": [],
+        "true4": [],
+        "true5": [],
+        "true6": [],
+        "true7": [],
+        "true8": [],
+        "true9": [],
+        "true10": [],
+        "true11": [],
+        "true12": [],
+        "true13": [],
+        "true14": [],
+        "true15": [],
+        "false": []
+      },
+      "id": "e4fc2bdc-df66-4101-a734-e2ab3b6a519d"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []

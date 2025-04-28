@@ -50,6 +50,11 @@
       "id": "6",
       "name": "strange_key",
       "symbol": "var_strange_key"
+    },
+    {
+      "id": "7",
+      "name": "pmav_quest_failure",
+      "symbol": "var_pmav_quest_failure"
     }
   ]
 }

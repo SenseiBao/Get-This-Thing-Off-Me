@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e5ff22ad-f322-4e9a-a641-305d4f51ecfd",
+  "name": "basement_maze",
+  "symbol": "bg_basement_maze",
+  "width": 50,
+  "height": 50,
+  "imageWidth": 400,
+  "imageHeight": 400,
+  "filename": "basement_maze.png",
+  "tileColors": ""
+}
