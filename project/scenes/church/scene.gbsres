@@ -92,7 +92,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "He approaches you\nand starts to\nspeak.",
+                "He approaches\nyou and starts to\nspeak.",
                 "His voice is\nwhiny and grating."
               ],
               "__section": "text",
@@ -111,7 +111,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "b45ef20d-5a8b-4d71-ba47-7081b74c7914"
           },

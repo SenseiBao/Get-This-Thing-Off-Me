@@ -1,0 +1,41 @@
+{
+  "_resourceType": "trigger",
+  "id": "ee4d55c0-6386-4815-9b04-6e17010666a6",
+  "name": "",
+  "prefabId": "",
+  "x": 33,
+  "y": 15,
+  "symbol": "trigger_9",
+  "prefabScriptOverrides": {},
+  "width": 2,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "The door is\nlocked!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "563f2d50-0e24-41df-a2c2-acac96eed8a7"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 9
+}
