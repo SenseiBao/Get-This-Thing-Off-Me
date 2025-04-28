@@ -1,0 +1,124 @@
+{
+  "_resourceType": "trigger",
+  "id": "cbc9169f-3d79-46d2-bf3c-6d37c8dc487f",
+  "name": "",
+  "prefabId": "",
+  "x": 22,
+  "y": 18,
+  "symbol": "trigger_0",
+  "prefabScriptOverrides": {},
+  "width": 4,
+  "height": 1,
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "10"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I never want to\ngo back there."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "7f90bc08-7c25-4797-b126-4c64046a77a2"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 23
+              },
+              "y": {
+                "type": "number",
+                "value": 21
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "086624e3-2af5-434d-83b1-2864cb91883b"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "I can hear people\npreparing for the\nceremony.",
+                "Better not\ndisturb them."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "0e490ab4-e665-4e74-8eaf-29eb1b0622ae"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 23
+              },
+              "y": {
+                "type": "number",
+                "value": 21
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "b0cf6772-ef5b-4861-b165-204c779b6f77"
+          }
+        ]
+      },
+      "id": "7a85f78b-b500-42e6-8225-53b9cd425789"
+    }
+  ],
+  "leaveScript": [],
+  "_index": 1
+}

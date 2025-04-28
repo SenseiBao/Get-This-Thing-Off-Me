@@ -8,6 +8,6 @@
   "imageWidth": 480,
   "imageHeight": 352,
   "filename": "map.png",
-  "tileColors": "005a0+",
+  "tileColors": "00a50+",
   "autoColor": false
 }

@@ -126,13 +126,13 @@
               "sceneId": "010fe956-706c-4c49-92b2-db3db66ac7f7",
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 12
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 10
               },
-              "direction": "",
+              "direction": "down",
               "fadeSpeed": "2"
             },
             "id": "5981b67e-c189-498a-983d-3e549316c042"
@@ -157,7 +157,7 @@
           }
         },
         "__collapseElse": true,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -195,13 +195,13 @@
               "sceneId": "010fe956-706c-4c49-92b2-db3db66ac7f7",
               "x": {
                 "type": "number",
-                "value": 0
+                "value": 12
               },
               "y": {
                 "type": "number",
-                "value": 0
+                "value": 9
               },
-              "direction": "",
+              "direction": "down",
               "fadeSpeed": "2"
             },
             "id": "dd2a317c-3bd7-4d3c-baa8-94c57c1e0e7a"
