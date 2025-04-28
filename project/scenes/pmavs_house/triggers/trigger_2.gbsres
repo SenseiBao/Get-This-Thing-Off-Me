@@ -1,14 +1,14 @@
 {
   "_resourceType": "trigger",
-  "id": "8e8d0cdb-12bf-4f11-ab7c-dff60798d4a1",
+  "id": "6210093e-7fb4-4322-a70a-e1e3470d9b8d",
   "name": "",
   "prefabId": "",
-  "x": 9,
-  "y": 17,
-  "symbol": "trigger_24",
+  "x": 16,
+  "y": 15,
+  "symbol": "trigger_2",
   "prefabScriptOverrides": {},
-  "width": 2,
-  "height": 1,
+  "width": 1,
+  "height": 2,
   "script": [
     {
       "command": "EVENT_SWITCH",
@@ -55,7 +55,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "I need to finish\nmy quest!"
+                "I should speak\nto Ms Pmav\nfirst."
               ],
               "__section": "text",
               "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
@@ -74,18 +74,54 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "b445e106-8e12-483b-a8ed-f6ea832a9c9f"
+            "id": "cbf96e1d-ae11-4dc7-9b8a-09275ae80a8e"
+          },
+          {
+            "command": "EVENT_ACTOR_MOVE_TO",
+            "args": {
+              "actorId": "$self$",
+              "x": {
+                "type": "number",
+                "value": 14
+              },
+              "y": {
+                "type": "number",
+                "value": 11
+              },
+              "moveType": "horizontal",
+              "useCollisions": false
+            },
+            "id": "7a32c6b3-e3d2-41cd-9a65-88aaa8f7d153"
           }
         ],
         "true1": [
           {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "dc68c790-5b1a-4f58-be9b-c89101cadd4b",
+              "x": {
+                "type": "number",
+                "value": 22
+              },
+              "y": {
+                "type": "number",
+                "value": 5
+              },
+              "direction": "down",
+              "fadeSpeed": "2"
+            },
+            "id": "45b2d182-b467-4c0b-b315-21756e2debde"
+          }
+        ],
+        "true2": [
+          {
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "I need to explore\nthe basement!"
+                "I am NOT going\ndown there\nagain!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -101,10 +137,9 @@
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30
             },
-            "id": "89f2c37f-92f6-4ba9-9562-85ae2790bba8"
+            "id": "e2b31266-8a46-49ce-a5d7-951ae26e84d5"
           }
         ],
-        "true2": [],
         "true3": [],
         "true4": [],
         "true5": [],
@@ -120,27 +155,35 @@
         "true15": [],
         "false": [
           {
-            "command": "EVENT_SWITCH_SCENE",
+            "command": "EVENT_TEXT",
             "args": {
-              "sceneId": "9d175d7e-33dc-474d-9952-22e3d7a00182",
-              "x": {
-                "type": "number",
-                "value": 12
-              },
-              "y": {
-                "type": "number",
-                "value": 41
-              },
-              "direction": "right",
-              "fadeSpeed": "2"
+              "text": [
+                "I am NOT\ngoing down there\nagain!"
+              ],
+              "__section": "text",
+              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
             },
-            "id": "a824e6df-d87c-48c7-ba99-b7f7c42aa9cf"
+            "id": "66bfda1e-e79c-497c-9cd5-3a8e27e2a8d1"
           }
         ]
       },
-      "id": "e383a087-bbb6-4416-9c5e-b36c60e0e949"
+      "id": "cda748f4-2d97-47fc-89fe-dd488ebf3c3c"
     }
   ],
   "leaveScript": [],
-  "_index": 0
+  "_index": 1
 }

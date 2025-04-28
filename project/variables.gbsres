@@ -55,6 +55,11 @@
       "id": "7",
       "name": "pmav_quest_failure",
       "symbol": "var_pmav_quest_failure"
+    },
+    {
+      "id": "8",
+      "name": "pmav_interact",
+      "symbol": "var_pmav_interact"
     }
   ]
 }

@@ -1,31 +1,99 @@
 {
   "_resourceType": "trigger",
-  "id": "1928fbf9-4571-468e-995d-c9a2ce1415ca",
+  "id": "76453658-f61c-4b56-aebe-80ce48c30e07",
   "name": "",
   "prefabId": "",
-  "x": 22,
-  "y": 3,
-  "symbol": "trigger_3",
+  "x": 47,
+  "y": 21,
+  "symbol": "trigger_27",
   "prefabScriptOverrides": {},
   "width": 2,
   "height": 1,
   "script": [
     {
-      "command": "EVENT_SWITCH_SCENE",
+      "command": "EVENT_TEXT",
       "args": {
-        "sceneId": "bf6421ea-732f-4406-ac4f-02c1656df272",
-        "x": {
-          "type": "number",
-          "value": 12
-        },
-        "y": {
-          "type": "number",
-          "value": 29
-        },
-        "direction": "",
-        "fadeSpeed": "2"
+        "text": [
+          "A desiccated body\nlies on the ground\nbefore you.",
+          "You can see brutal\nbite marks on the\nclavicle."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
       },
-      "id": "53cc324e-6378-46cd-9988-4f96536ddbca"
+      "id": "96f90d7a-f42b-40c8-8726-13b03ede54d9"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "$self$",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+      },
+      "id": "2b56b16d-f9fe-46c1-bdfe-d371df89f107"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "How peculiar!",
+          "Vaccinated?"
+        ],
+        "__section": "text",
+        "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2d00ab65-b92f-4203-bb1e-3e17636f0862"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "The corpse keeps\nit's secrets to\nitself."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "3df2dd21-5c78-4f53-bd72-30745b61e85d"
     }
   ],
   "leaveScript": [],
