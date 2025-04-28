@@ -1,0 +1,41 @@
+{
+  "_resourceType": "script",
+  "id": "00ba3105-50de-4aef-afe7-55a88d598a6e",
+  "name": "Checking Correct Player Sprite",
+  "description": "Run this before the fade in",
+  "variables": {},
+  "actors": {},
+  "symbol": "script_4",
+  "script": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "10"
+          },
+          "valueB": {
+            "type": "true"
+          }
+        },
+        "__collapseElse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_ACTOR_SET_SPRITE",
+            "args": {
+              "actorId": "player",
+              "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+            },
+            "id": "07e171b5-c5ba-4880-b454-9bf59b06ee1c"
+          }
+        ],
+        "false": []
+      },
+      "id": "06db9814-8ada-44ce-99a7-7a5bc6825391"
+    }
+  ]
+}

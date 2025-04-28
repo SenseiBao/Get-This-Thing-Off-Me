@@ -50,7 +50,8 @@
         "closeWhen": "key",
         "closeButton": "a",
         "closeDelayTime": 0.5,
-        "closeDelayFrames": 30
+        "closeDelayFrames": 30,
+        "__collapse": true
       },
       "id": "16d90ae1-a241-4fb7-b2dd-8fa582ceaf85"
     },
@@ -76,7 +77,7 @@
         },
         "direction": "",
         "fadeSpeed": 3,
-        "__collapse": false
+        "__collapse": true
       },
       "id": "87973a40-676d-4da0-bb33-3222f2929dbe"
     }
@@ -84,5 +85,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false
+  "autoFadeEventCollapse": false,
+  "playerSpriteSheetId": "87d0a682-815e-440e-aa56-7fe257ec51bc"
 }

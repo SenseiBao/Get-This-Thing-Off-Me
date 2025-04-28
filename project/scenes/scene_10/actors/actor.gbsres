@@ -20,8 +20,8 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "This isn't what\nit looks \nlike kid.",
-          "...",
+          "This isn't what it\nlooks like kid.",
+          "...\n......",
           "I'm mining bitcoin",
           "You wanna get in \non this meme coin\nI made?",
           "*shows coin with\na funny little\ndog on it*"

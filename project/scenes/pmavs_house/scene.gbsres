@@ -17,6 +17,13 @@
   "y": 1408,
   "script": [
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "00ba3105-50de-4aef-afe7-55a88d598a6e"
+      },
+      "id": "b7f744b2-5774-470a-9890-81f47a8060bd"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -30,7 +37,8 @@
             "value": 0
           }
         },
-        "__collapseElse": false
+        "__collapseElse": false,
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -79,5 +87,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": false
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "87d0a682-815e-440e-aa56-7fe257ec51bc"
 }

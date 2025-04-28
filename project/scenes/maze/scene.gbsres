@@ -117,7 +117,7 @@
                 "But I am NOT\ngoing to test\nthat out."
               ],
               "__section": "text",
-              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -209,5 +209,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "playerSpriteSheetId": "87d0a682-815e-440e-aa56-7fe257ec51bc"
 }

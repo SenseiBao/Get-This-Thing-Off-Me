@@ -19,6 +19,13 @@
   "y": 1008,
   "script": [
     {
+      "command": "EVENT_CALL_CUSTOM_EVENT",
+      "args": {
+        "customEventId": "00ba3105-50de-4aef-afe7-55a88d598a6e"
+      },
+      "id": "16635e9c-c2b4-49ef-a457-d08b62b48dd2"
+    },
+    {
       "command": "EVENT_IF",
       "args": {
         "condition": {
@@ -33,7 +40,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": false
+        "__collapse": true
       },
       "children": {
         "true": [
@@ -92,7 +99,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "He approaches\nyou and starts to\nspeak.",
+                "He approaches you\nand starts to\nspeak.",
                 "His voice is\nwhiny and grating."
               ],
               "__section": "text",
@@ -111,7 +118,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": false
+              "__collapse": true
             },
             "id": "b45ef20d-5a8b-4d71-ba47-7081b74c7914"
           },
@@ -341,5 +348,7 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": true,
+  "playerSpriteSheetId": "87d0a682-815e-440e-aa56-7fe257ec51bc"
 }

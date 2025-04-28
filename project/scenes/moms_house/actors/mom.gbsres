@@ -130,9 +130,9 @@
               },
               "y": {
                 "type": "number",
-                "value": 10
+                "value": 14
               },
-              "direction": "down",
+              "direction": "up",
               "fadeSpeed": "2"
             },
             "id": "5981b67e-c189-498a-983d-3e549316c042"
@@ -161,6 +161,13 @@
       },
       "children": {
         "true": [
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "1"
+            },
+            "id": "08fab368-e8ce-412a-8f90-e4cb8e4ea287"
+          },
           {
             "command": "EVENT_TEXT",
             "args": {
@@ -199,9 +206,9 @@
               },
               "y": {
                 "type": "number",
-                "value": 9
+                "value": 15
               },
-              "direction": "down",
+              "direction": "up",
               "fadeSpeed": "2"
             },
             "id": "dd2a317c-3bd7-4d3c-baa8-94c57c1e0e7a"
