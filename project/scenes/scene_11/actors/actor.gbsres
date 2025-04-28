@@ -15,7 +15,33 @@
   "collisionGroup": "",
   "prefabScriptOverrides": {},
   "symbol": "actor_18",
-  "script": [],
+  "script": [
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "OwO, what's this?"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "1e5391e2-29c5-48f0-8330-b107f2a32ab0"
+    }
+  ],
   "startScript": [],
   "updateScript": [
     {
