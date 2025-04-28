@@ -20,7 +20,9 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "It's a sussy\ngoblet, there's\nsome red fluid\ndripping out of it."
+          "You see the\nchalice on the\nfloor.",
+          "It's surprisingly\nornate for a\nsimple chug jug.",
+          "The liquid inside\nis strangely\nthick."
         ],
         "__section": "text",
         "avatarId": "",
@@ -46,7 +48,7 @@
       "args": {
         "variable": "1",
         "items": 3,
-        "option1": "Pick up item?",
+        "option1": "Pick up item",
         "option2": "Take a sip",
         "option3": "Cancel",
         "option4": "",
@@ -168,6 +170,13 @@
               "effect": 0
             },
             "id": "32423dad-6888-4d3e-90ca-08009563b0fd"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "8"
+            },
+            "id": "cc87722e-cb79-45bc-a456-f3295a6b015b"
           }
         ],
         "true1": [

@@ -20,10 +20,10 @@
       "command": "EVENT_IF",
       "args": {
         "condition": {
-          "type": "ne",
+          "type": "eq",
           "valueA": {
             "type": "variable",
-            "value": "1"
+            "value": "8"
           },
           "valueB": {
             "type": "number",
@@ -71,5 +71,6 @@
   ],
   "playerHit1Script": [],
   "playerHit2Script": [],
-  "playerHit3Script": []
+  "playerHit3Script": [],
+  "autoFadeEventCollapse": false
 }

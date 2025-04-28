@@ -151,6 +151,13 @@
               "fadeSpeed": "2"
             },
             "id": "49257cbc-dd87-495f-8f95-932bb3d06257"
+          },
+          {
+            "command": "EVENT_INC_VALUE",
+            "args": {
+              "variable": "8"
+            },
+            "id": "7e4698d0-3f38-43e9-84ab-dd8a40e23480"
           }
         ],
         "true1": [
