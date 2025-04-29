@@ -8,5 +8,6 @@
   "imageWidth": 192,
   "imageHeight": 160,
   "filename": "Jeterson..png",
-  "tileColors": ""
+  "tileColors": "",
+  "autoColor": false
 }

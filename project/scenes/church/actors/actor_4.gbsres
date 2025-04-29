@@ -30,7 +30,7 @@
             "value": "False"
           }
         },
-        "__collapseElse": true,
+        "__collapseElse": false,
         "__collapse": false
       },
       "children": {
@@ -76,7 +76,7 @@
                 "holy shit are \nyou a talking \nbat!?"
               ],
               "__section": "text",
-              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -128,7 +128,7 @@
                 "Also I must be \ntripping balls,\nto be talking\nto a bat right\nnow. "
               ],
               "__section": "text",
-              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -282,7 +282,7 @@
                       "*blushes and\nlooks away* >.<"
                     ],
                     "__section": "text",
-                    "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+                    "avatarId": "",
                     "minHeight": 4,
                     "maxHeight": 7,
                     "textX": 1,
@@ -361,7 +361,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "1d00b1dd-1792-4958-8e0d-2b384bbc61af"
     },
@@ -388,7 +388,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "8e0ccaf9-2dae-435e-b23a-fe30e5a4e253"
     },
@@ -407,7 +407,7 @@
         "option8": "",
         "cancelOnB": false,
         "layout": "dialogue",
-        "__collapse": true
+        "__collapse": false
       },
       "id": "9031c1b1-a9da-402e-b84c-a0f36c67f59f"
     },
@@ -1106,7 +1106,7 @@
                 "Are you sure\nthey're gone?"
               ],
               "__section": "text",
-              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+              "avatarId": "",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
