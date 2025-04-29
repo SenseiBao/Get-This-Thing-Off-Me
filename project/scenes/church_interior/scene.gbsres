@@ -41,7 +41,7 @@
           "You made it to the\nChurch just in\ntime.",
           "You've never been\ninside of here\nbefore.",
           "Suitless are not\nallowed entry.",
-          "But you won't be\nSuitless much\nlonger.",
+          "But you won't be\nSuitless much\nlonger...",
           "It's darker than\nyou expected.",
           "And the room reaks\nof incense and\nwet fur.",
           "You focus on the\nPriest as he \nbegins to speak."
@@ -484,6 +484,193 @@
         "actorId": "a4274c52-586e-48ca-9878-2ac82655d299"
       },
       "id": "ef8e84b6-d6e7-4bbe-b12b-0f340baaa945"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "player",
+        "emoteId": "56423c9c-dca0-4f5b-ad92-28e9660d50f1"
+      },
+      "id": "3c519d37-0b54-4c44-a478-6c6203f45130"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.3,
+        "frames": 30
+      },
+      "id": "480e3c48-4661-41ee-948a-54227fe64d99"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You stare into\nthe hollow eye\nsockets of the",
+          "Limp Suit in\nfront of you.",
+          "You're too stunned\nto speak.",
+          "The suit that you\nwill have to wear\nforever...",
+          "... Is an anime\ncatgirl.",
+          "The Priest notices\nyour silence and\nturns to face you."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "80753be0-ccd8-442c-bb6d-8e980674885e"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "95a30152-5a30-476e-ba07-1badfcd08309",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        }
+      },
+      "id": "6241462a-8c8c-45d2-80f1-26786e4efda5"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "What's the \nmatter, Judas?",
+          "Are you not\nelated to see your\nnew Fur?",
+          "You will be the \nfirst to wear\nthis new model!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "d9120227-3c77-46c1-8f1b-2222ff733e16"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You finally find\nyour ability to\nspeak."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "7252a392-b99d-4707-b23f-59b61337afef"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I refuse to wear\nthat... that...",
+          "THING!!!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "11ad76c1-a0ad-40f0-bf54-1e057b9a2c43"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You hear gasps\nfrom the villagers."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "0c5ec6d0-7088-4b6b-b247-28132d319b2e"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I'm sorry,\nJudas...",
+          "But this is not a\nchoice!",
+          "How dare you\nrefuse our Lord's\ngifts?!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "2ef128a7-f0de-4a0a-af0e-9d4420f2edcf"
     }
   ],
   "playerHit1Script": [],
