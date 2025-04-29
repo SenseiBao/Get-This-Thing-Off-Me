@@ -25,61 +25,34 @@
   "autoFadeSpeed": 1,
   "script": [
     {
-      "command": "EVENT_IF",
-      "args": {
-        "condition": {
-          "type": "eq",
-          "valueA": {
-            "type": "variable",
-            "value": "1"
-          },
-          "valueB": {
-            "type": "number",
-            "value": 1
-          }
-        },
-        "__collapseElse": false,
-        "__collapse": false,
-        "__comment": true
-      },
-      "children": {
-        "true": [
-          {
-            "command": "EVENT_ACTOR_SET_DIRECTION",
-            "args": {
-              "actorId": "$self$",
-              "direction": {
-                "type": "direction",
-                "value": "up"
-              }
-            },
-            "id": "2e07b4b2-eb9c-4149-b0c9-62689f27ddba"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "4d1352d8-c08b-40ad-93fa-67eb8e91a7a7"
-            },
-            "id": "b43d9ad0-3474-4326-aa08-e09c3033335b"
-          },
-          {
-            "command": "EVENT_ACTOR_DEACTIVATE",
-            "args": {
-              "actorId": "b3873d75-77fd-4cd2-af28-d97ba9f30c7e"
-            },
-            "id": "0b9e1705-d3bf-417a-b882-76717a59b4b7"
-          }
-        ],
-        "false": []
-      },
-      "id": "73618800-9b61-451f-9393-f6dd8d262d62"
-    },
-    {
       "command": "EVENT_CALL_CUSTOM_EVENT",
       "args": {
-        "customEventId": "00ba3105-50de-4aef-afe7-55a88d598a6e"
+        "customEventId": "00ba3105-50de-4aef-afe7-55a88d598a6e",
+        "__collapse": false
       },
       "id": "48aaa043-a492-4afd-b03c-45ff9774dbd8"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "7",
+        "value": {
+          "type": "number",
+          "value": 2
+        }
+      },
+      "id": "adf4cc1a-3bb0-4955-8f51-ac6cb5bb8b75"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "2",
+        "value": {
+          "type": "number",
+          "value": 1
+        }
+      },
+      "id": "d28e5cd9-4bab-4795-8e80-d92c11481451"
     }
   ],
   "playerHit1Script": [],

@@ -15,7 +15,7 @@
   "collisions": "0017+0f2+001e+0f2+00e+0f4+00c+0f2+00c+0f3+00!0f4+00a+0f3+00b+0f!006+0f!009+0f4+00b+0f!006+0f!009+0f2+00!0f2+00a+0f!006+0f!007+0f4+00!0f2+00a+0f!002+0f2+002+0f!005+0f5+002+0f5+007+0f3+002+0f3+004+0f5+003+0f6+0012+0f!002+0f2+008+0f!0012+0f!00b+0f2+0012+0f2+00a+0f2+0012+0f2+00a+0f2+0012+0f2+00a+0f2+003+0f2+005+0f2+004+0f4+00a+0f!004+0f2+005+0f2+004+0f2+00!0f!00a+0f!004+0f2+005+0f2+004+0f2+00!0f!00a+0f!004+0f2+005+0f2+004+0f2+00!0fc+00f0+0f2+005+0f2+006+0f2+00f+0f2+005+0f2+006+0f2+00a1+",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 1480,
+  "x": 1592,
   "y": 1008,
   "script": [
     {
@@ -124,12 +124,23 @@
             "id": "b45ef20d-5a8b-4d71-ba47-7081b74c7914"
           },
           {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "8c9b59a5-a99e-4d19-90c5-9debc59bbe26",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              }
+            },
+            "id": "40fd704f-c135-4968-8a8d-92a7b15c842b"
+          },
+          {
             "command": "EVENT_ACTOR_MOVE_TO",
             "args": {
               "actorId": "8c9b59a5-a99e-4d19-90c5-9debc59bbe26",
               "x": {
                 "type": "number",
-                "value": 6
+                "value": 10
               },
               "y": {
                 "type": "number",
@@ -140,6 +151,17 @@
               "__collapse": false
             },
             "id": "957eccf1-cf6f-4807-b376-a9dc8c66141c"
+          },
+          {
+            "command": "EVENT_ACTOR_SET_DIRECTION",
+            "args": {
+              "actorId": "8c9b59a5-a99e-4d19-90c5-9debc59bbe26",
+              "direction": {
+                "type": "direction",
+                "value": "left"
+              }
+            },
+            "id": "21915dfc-e494-419b-8189-1e380bd8adc2"
           },
           {
             "command": "EVENT_TEXT",
@@ -196,7 +218,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "32a04dfd-919f-4849-9ca7-39e4291e57d7"
           },
@@ -214,7 +236,9 @@
                 "*shuddering sob*",
                 "Man was not meant\nto go against \nnature!",
                 "They hunt us \nbecause we wear\nthe suits!",
-                "Not inspite of \nthem!"
+                "Not inspite of \nthem!",
+                "Listen here Judas!",
+                "Go solve the puzzle\nWest of the village"
               ],
               "__section": "text",
               "avatarId": "",
@@ -232,7 +256,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "ef47c6ac-583a-4243-9015-e59ab824273f"
           },
@@ -258,7 +282,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "8720884d-4a91-4d95-8bef-1ece86e06be1"
           },
@@ -275,8 +299,8 @@
                 "value": 30
               },
               "moveType": "horizontal",
-              "useCollisions": false,
-              "__collapse": true
+              "useCollisions": true,
+              "__collapse": false
             },
             "id": "59b8c6f7-4525-492a-bc63-4c2b2c87bfeb"
           },
@@ -333,16 +357,7 @@
             "id": "d5ca09c7-3dc7-4ec2-97fc-4c7f1a30c066"
           }
         ],
-        "false": [
-          {
-            "command": "EVENT_CALL_CUSTOM_EVENT",
-            "args": {
-              "customEventId": "2b313397-0aa4-4330-b73d-ce4a6bf2e87d",
-              "$actor[0]$": "8c9b59a5-a99e-4d19-90c5-9debc59bbe26"
-            },
-            "id": "1714af1c-17ef-44a7-8a8c-3003061b0a45"
-          }
-        ]
+        "false": []
       },
       "id": "701e9723-a57b-4aa8-952c-d5997717f8cb"
     }
@@ -350,6 +365,6 @@
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],
-  "autoFadeEventCollapse": true,
+  "autoFadeEventCollapse": false,
   "playerSpriteSheetId": "87d0a682-815e-440e-aa56-7fe257ec51bc"
 }
