@@ -1,17 +1,14 @@
 # Get-This-Thing-Off-Me
 A GB studio game
 
-# Player sprite
-edited version of GB studio default template
+# Player sprites
+1) edited version of GB studio default template
+2) Sprite 21 from Wintonson's "PokemonTCGAA" asset pack. https://wintonson.itch.io/gb-studio-sprites/download/eyJleHBpcmVzIjoxNzQ1ODgwNDcxLCJpZCI6MTAyODc2N30%3d%2erylncKcvgqqsCBnogAo1it0SUIA%3d
 
-# Sound effects 
-https://coffeevalenbat.itch.io/sweet-sounds-sfx-pack
+# Sound effects
+ - https://coffeevalenbat.itch.io/sweet-sounds-sfx-pack
 
-# Tilesets
-https://the-pixel-nook.itch.io/gb-studio-buildings
-
-# Tileset 2
-https://the-pixel-nook.itch.io/gb-studio-indoors/download/eyJleHBpcmVzIjoxNzQ1Mjk1MDQ1LCJpZCI6MTMzNjcyN30%3d%2evVAn05rBXqlhw7TNkuMrw3egyas%3d
-
-# Jokes used
-all me baby (all of us)
+# Used Tilesets:
+Buildings - https://the-pixel-nook.itch.io/gb-studio-buildings
+Interior Items - https://the-pixel-nook.itch.io/gb-studio-indoors/download/eyJleHBpcmVzIjoxNzQ1Mjk1MDQ1LCJpZCI6MTMzNjcyN30%3d%2evVAn05rBXqlhw7TNkuMrw3egyas%3d
+Dungeon Layout - https://rekkimaru.itch.io/gb-studio-dungeon-tileset-8x8
