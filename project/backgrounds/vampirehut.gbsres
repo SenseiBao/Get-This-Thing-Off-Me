@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "2130336a-6ab0-495f-8663-92eff9212bfe",
+  "name": "vampireHut",
+  "symbol": "bg_vampirehut",
+  "width": 24,
+  "height": 20,
+  "imageWidth": 192,
+  "imageHeight": 160,
+  "filename": "vampireHut.png",
+  "tileColors": "011e0+"
+}

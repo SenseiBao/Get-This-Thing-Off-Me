@@ -20,14 +20,60 @@
             "value": "6"
           },
           "valueB": {
-            "type": "number",
-            "value": 2
+            "type": "true"
           }
         },
         "__collapseElse": false
       },
       "children": {
-        "true": [],
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Finally...",
+                "After all of \nthese mindless\ntasks...",
+                "You are finally\nabout to earn\nback your body.",
+                "The door unlocks\nwith a deafening\ncreaking noise.",
+                "You step inside"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "d08e6d56-d066-482d-8a35-9fe483cd2bc3"
+          },
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "b2076611-d6ee-41f9-84a2-993548193c5d",
+              "x": {
+                "type": "number",
+                "value": 10
+              },
+              "y": {
+                "type": "number",
+                "value": 18
+              },
+              "direction": "up",
+              "fadeSpeed": "2"
+            },
+            "id": "01578cf1-3aef-4639-963b-03930e280444"
+          }
+        ],
         "false": [
           {
             "command": "EVENT_TEXT",

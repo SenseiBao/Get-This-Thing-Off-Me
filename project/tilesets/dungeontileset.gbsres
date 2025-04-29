@@ -1,0 +1,11 @@
+{
+  "_resourceType": "tileset",
+  "id": "6150e862-7aa0-4410-a481-55f12f655ed9",
+  "name": "DungeonTileset",
+  "symbol": "tileset_dungeontileset",
+  "width": 14,
+  "height": 13,
+  "imageWidth": 112,
+  "imageHeight": 104,
+  "filename": "DungeonTileset.png"
+}

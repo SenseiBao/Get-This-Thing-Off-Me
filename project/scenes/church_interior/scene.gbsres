@@ -69,13 +69,13 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "Thank you all for\ngathering here on\nthis fine evening.",
+          "Thank you all\nfor coming\nhere tonight.",
           "Today is a\nmomentous \noccasion!",
           "Young Judas is \nready to shed\nhis old skin.",
           "And join our\nhumble Parish\nin Fur."
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "d7970adc-6a87-4bb4-a294-cd2c069207eb",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -90,7 +90,7 @@
         "closeButton": "a",
         "closeDelayTime": 0.5,
         "closeDelayFrames": 30,
-        "__collapse": true
+        "__collapse": false
       },
       "id": "e419e71e-e195-4e80-9d73-0a92d1247441"
     },
@@ -109,7 +109,7 @@
           }
         },
         "__collapseElse": false,
-        "__collapse": true
+        "__collapse": false
       },
       "children": {
         "true": [
@@ -120,7 +120,7 @@
                 "Before we begin,\nI would like to\nthank Susan."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "d7970adc-6a87-4bb4-a294-cd2c069207eb",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -182,7 +182,7 @@
                 "Those silly\nyellow fellas!"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "d7970adc-6a87-4bb4-a294-cd2c069207eb",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -210,7 +210,7 @@
                 "Susan did not\nbring the special\nplates tonight."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "d7970adc-6a87-4bb4-a294-cd2c069207eb",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -265,11 +265,11 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "As ya'll know,\nSecond-Birth is\njust not the same",
+                "As ya'll know,\nSecond-Birth is\nnot the same.",
                 "Without those\nsilly yellow\nfellas..."
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "d7970adc-6a87-4bb4-a294-cd2c069207eb",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -300,7 +300,7 @@
           "All rise!"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "d7970adc-6a87-4bb4-a294-cd2c069207eb",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -398,10 +398,10 @@
       "command": "EVENT_TEXT",
       "args": {
         "text": [
-          "And behold what\nour Fur Lord has\nblessed you with!"
+          "!S3!And behold the\nFur Lord's \nBlessing!"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "d7970adc-6a87-4bb4-a294-cd2c069207eb",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -547,11 +547,11 @@
       "args": {
         "text": [
           "What's the \nmatter, Judas?",
-          "Are you not\nelated to see your\nnew Fur?",
+          "Are you not\nelated to see\nyour new Fur?",
           "You will be the \nfirst to wear\nthis new model!"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "d7970adc-6a87-4bb4-a294-cd2c069207eb",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -654,7 +654,7 @@
           "How dare you\nrefuse our Lord's\ngifts?!"
         ],
         "__section": "text",
-        "avatarId": "",
+        "avatarId": "d7970adc-6a87-4bb4-a294-cd2c069207eb",
         "minHeight": 4,
         "maxHeight": 7,
         "textX": 1,
@@ -671,6 +671,226 @@
         "closeDelayFrames": 30
       },
       "id": "2ef128a7-f0de-4a0a-af0e-9d4420f2edcf"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "I will NOT be\na part of this \ncharade!",
+          "Vampires are not\neven real!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "7cb4dbf0-03c6-4b8c-a834-235266d96e39"
+    },
+    {
+      "command": "EVENT_ACTOR_EMOTE",
+      "args": {
+        "actorId": "95a30152-5a30-476e-ba07-1badfcd08309",
+        "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+      },
+      "id": "f0d0a208-cd02-4ebb-863b-51f4a448fdc8"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Very well.",
+          "!S3!I guess we'll\ndo this the\nhard way..."
+        ],
+        "__section": "text",
+        "avatarId": "d7970adc-6a87-4bb4-a294-cd2c069207eb",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "85022e92-4716-47cc-b8b2-7c217ee15427"
+    },
+    {
+      "command": "EVENT_FADE_OUT",
+      "args": {
+        "speed": 1
+      },
+      "id": "a99c642d-cc9c-4208-9a25-2d749445ca75"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "The villagers \nrun at you and\ngrab you.",
+          "You feel them\nforce you into\nthe Suit.",
+          "You feel wet\nsilicone tighten\naround you."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "60e212df-2371-4731-af45-f2efb8349f2a"
+    },
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "a4274c52-586e-48ca-9878-2ac82655d299"
+      },
+      "id": "a002d098-eacf-4c54-9794-e715dc1a1cfd"
+    },
+    {
+      "command": "EVENT_PLAYER_SET_SPRITE",
+      "args": {
+        "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd"
+      },
+      "id": "a077c7dc-646f-488d-b973-47693e50b3bd"
+    },
+    {
+      "command": "EVENT_FADE_IN",
+      "args": {
+        "speed": 1
+      },
+      "id": "f66c221c-7ae4-4ef3-9790-1a023f944c20"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "player",
+        "direction": {
+          "type": "direction",
+          "value": "down"
+        }
+      },
+      "id": "e1b6f044-4bc7-4cfe-81d9-f322b59fc11f"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You look at your\nnew body in\nhorror.",
+          "You can't believe\nthat this is now\nyou.",
+          "You have never\nfelt this angry\nbefore."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "06de9119-28de-42fb-8c1b-6f871786b983"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "GET THIS THING OFF\nOF ME!!!!!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "7f3d2213-c00f-4c16-9acb-6fb429e03578"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_MOVEMENT_SPEED",
+      "args": {
+        "actorId": "$self$",
+        "speed": 4
+      },
+      "id": "cdf3afb2-9339-4713-bfe1-45f4f579eff0"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 12
+        },
+        "y": {
+          "type": "number",
+          "value": 34
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "7400c2be-57bf-46be-b305-e6c34a74386d"
+    },
+    {
+      "command": "EVENT_SWITCH_SCENE",
+      "args": {
+        "sceneId": "73354586-b018-4aed-bb28-ed0dd7110ed3",
+        "x": {
+          "type": "number",
+          "value": 7
+        },
+        "y": {
+          "type": "number",
+          "value": 26
+        },
+        "direction": "left",
+        "fadeSpeed": 2
+      },
+      "id": "a97252a1-169a-4f0d-946c-2ad7cd54fc63"
     }
   ],
   "playerHit1Script": [],
