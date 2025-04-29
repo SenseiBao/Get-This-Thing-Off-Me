@@ -70,6 +70,11 @@
       "id": "74585381-8e2d-4baf-8dc9-41c2a844ee8f__L0",
       "name": "Local 0",
       "symbol": "var_local_0"
+    },
+    {
+      "id": "f1daf40e-bef1-4a0f-9ab4-3dff5dc1ecba__L0",
+      "name": "Local 0",
+      "symbol": "var_local_3"
     }
   ]
 }

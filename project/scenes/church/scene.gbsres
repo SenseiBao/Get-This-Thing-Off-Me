@@ -48,7 +48,7 @@
             "command": "EVENT_INC_VALUE",
             "args": {
               "variable": "9",
-              "__collapse": true
+              "__collapse": false
             },
             "id": "d044a4c4-e08e-4e39-ac17-e09e296109a0"
           },
@@ -81,7 +81,7 @@
               "closeButton": "a",
               "closeDelayTime": 0.5,
               "closeDelayFrames": 30,
-              "__collapse": true
+              "__collapse": false
             },
             "id": "eba051a7-28d3-4b96-a0d9-78c812a7fb1f"
           },
