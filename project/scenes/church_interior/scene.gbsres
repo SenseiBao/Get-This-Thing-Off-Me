@@ -11,11 +11,481 @@
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "003dc+",
-  "autoFadeSpeed": 5,
+  "autoFadeSpeed": 6,
   "symbol": "scene_14",
-  "x": 1552,
-  "y": 648,
-  "script": [],
+  "x": 1704,
+  "y": 656,
+  "script": [
+    {
+      "command": "EVENT_ACTOR_HIDE",
+      "args": {
+        "actorId": "a4274c52-586e-48ca-9878-2ac82655d299"
+      },
+      "id": "dd7c0fd8-2f34-4b5f-8900-1f9e626353e3"
+    },
+    {
+      "command": "EVENT_SET_VALUE",
+      "args": {
+        "variable": "10",
+        "value": {
+          "type": "true"
+        },
+        "__collapse": false
+      },
+      "id": "19aacdae-d38b-444d-8e9d-14214146f945"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "You made it to the\nChurch just in\ntime.",
+          "You've never been\ninside of here\nbefore.",
+          "Suitless are not\nallowed entry.",
+          "But you won't be\nSuitless much\nlonger.",
+          "It's darker than\nyou expected.",
+          "And the room reaks\nof incense and\nwet fur.",
+          "You focus on the\nPriest as he \nbegins to speak."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "01dff8ed-3c49-44f0-97f1-db2f95231f49"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Thank you all for\ngathering here on\nthis fine evening.",
+          "Today is a\nmomentous \noccasion!",
+          "Young Judas is \nready to shed\nhis old skin.",
+          "And join our\nhumble Parish\nin Fur."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": true
+      },
+      "id": "e419e71e-e195-4e80-9d73-0a92d1247441"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 2
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Before we begin,\nI would like to\nthank Susan."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "e405e4f2-35fd-4dd5-bc9d-34f01603c75e"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "... how did I not\nknow that my mom's\nname is Susan?!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "05163a8b-2a82-48ae-a220-e6c29fffff37"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "e19c76cb-b1b0-4855-93b5-41742a4e9c10",
+              "emoteId": "edf96d29-9a08-4813-b2d3-46e0996f89f2",
+              "__collapse": true
+            },
+            "id": "e5edac17-a8aa-4d65-b2a1-515fbedd624c"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Susan, not only\nhave you raised\na great son...",
+                "But you also \nbrought my\nfavorite plates!",
+                "And ya'll know\nhow much i love...",
+                "Those silly\nyellow fellas!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "87e64e12-df86-4ef8-bb9f-cc0ef18b9daf"
+          }
+        ],
+        "false": [
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "Unfortunately...",
+                "Susan did not\nbring the special\nplates tonight."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "2da02294-e89b-4c72-8e3e-af12df1d5b40"
+          },
+          {
+            "command": "EVENT_ACTOR_EMOTE",
+            "args": {
+              "actorId": "e19c76cb-b1b0-4855-93b5-41742a4e9c10",
+              "emoteId": "9df5f63f-ea47-447e-9b14-cb2dbafb697d"
+            },
+            "id": "b82054b8-b5ee-4e85-8be6-edf8e2702d8a"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "... how did I not\nknow that my mom's\nname is Susan?!"
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "ae291d85-8f36-4af8-8062-17af222aa9db"
+          },
+          {
+            "command": "EVENT_TEXT",
+            "args": {
+              "text": [
+                "As ya'll know,\nSecond-Birth is\njust not the same",
+                "Without those\nsilly yellow\nfellas..."
+              ],
+              "__section": "text",
+              "avatarId": "",
+              "minHeight": 4,
+              "maxHeight": 7,
+              "textX": 1,
+              "textY": 1,
+              "textHeight": 5,
+              "position": "bottom",
+              "clearPrevious": true,
+              "showFrame": "true",
+              "speedIn": -1,
+              "speedOut": -1,
+              "closeWhen": "key",
+              "closeButton": "a",
+              "closeDelayTime": 0.5,
+              "closeDelayFrames": 30
+            },
+            "id": "2649d031-0950-429b-8e48-86560320566f"
+          }
+        ]
+      },
+      "id": "64c759c8-a0c4-4800-a908-9812a25c2155"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "But I digress...",
+          "Let us begin\nthe ritual!",
+          "All rise!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30,
+        "__collapse": false
+      },
+      "id": "d1a848cd-eb9c-4f50-937a-e14fac419cb0"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "As the villagers\nstand up from\ntheir seats...",
+          "You notice that\nPordan Jeterson\nremains seated."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "ebc697cb-0338-4935-8576-dcb590ee672d"
+    },
+    {
+      "command": "EVENT_COMMENT",
+      "args": {
+        "text": "This is where the actual ritual\ntakes place in the script."
+      },
+      "id": "93694b77-fdee-45d8-ae80-eee70655cefb"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "Step forth,\nJudas!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b08c081a-ad4c-44e7-975a-620db7d6701a"
+    },
+    {
+      "command": "EVENT_ACTOR_MOVE_TO",
+      "args": {
+        "actorId": "$self$",
+        "x": {
+          "type": "number",
+          "value": 12
+        },
+        "y": {
+          "type": "number",
+          "value": 14
+        },
+        "moveType": "horizontal",
+        "useCollisions": false
+      },
+      "id": "be9c2c04-8cee-4da2-8277-6f30ff651ad3"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "And behold what\nour Fur Lord has\nblessed you with!"
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "effa0dff-100f-47de-9abb-6c9f5de5d70f"
+    },
+    {
+      "command": "EVENT_WAIT",
+      "args": {
+        "time": 0.3,
+        "frames": 30
+      },
+      "id": "76e6f1f3-cacc-4bce-84e6-c260cd87f7d6"
+    },
+    {
+      "command": "EVENT_ACTOR_SET_DIRECTION",
+      "args": {
+        "actorId": "95a30152-5a30-476e-ba07-1badfcd08309",
+        "direction": {
+          "type": "direction",
+          "value": "up"
+        }
+      },
+      "id": "64c7594f-9b49-4188-8e25-7665de7bb9bf"
+    },
+    {
+      "command": "EVENT_TEXT",
+      "args": {
+        "text": [
+          "As you stare ahead\nat the pool by the\nwall...",
+          "You notice a\nshape rising from\nthe water.",
+          "You wipe your\neyes to see the\nshape better."
+        ],
+        "__section": "text",
+        "avatarId": "",
+        "minHeight": 4,
+        "maxHeight": 7,
+        "textX": 1,
+        "textY": 1,
+        "textHeight": 5,
+        "position": "bottom",
+        "clearPrevious": true,
+        "showFrame": "true",
+        "speedIn": -1,
+        "speedOut": -1,
+        "closeWhen": "key",
+        "closeButton": "a",
+        "closeDelayTime": 0.5,
+        "closeDelayFrames": 30
+      },
+      "id": "b63f8c45-164a-43c1-a8ec-4c40f4d38a18"
+    },
+    {
+      "command": "EVENT_CAMERA_SHAKE",
+      "args": {
+        "time": 0.2,
+        "frames": 30,
+        "shakeDirection": "horizontal",
+        "magnitude": {
+          "type": "number",
+          "value": 7
+        }
+      },
+      "id": "1d598aa6-d693-4e8c-94e8-dab577d82102"
+    },
+    {
+      "command": "EVENT_ACTOR_SHOW",
+      "args": {
+        "actorId": "a4274c52-586e-48ca-9878-2ac82655d299"
+      },
+      "id": "ef8e84b6-d6e7-4bbe-b12b-0f340baaa945"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": [],

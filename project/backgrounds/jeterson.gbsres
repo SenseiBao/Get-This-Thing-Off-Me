@@ -1,6 +1,6 @@
 {
   "_resourceType": "background",
-  "id": "187f51fe-688a-48bc-a30b-03cf426a8b88",
+  "id": "39b5f181-830a-46b2-9b38-d4a4fa5f507d",
   "name": "Jeterson.",
   "symbol": "bg_jeterson_",
   "width": 24,
@@ -8,6 +8,5 @@
   "imageWidth": 192,
   "imageHeight": 160,
   "filename": "Jeterson..png",
-  "tileColors": "",
-  "autoColor": false
+  "tileColors": "011e0+"
 }

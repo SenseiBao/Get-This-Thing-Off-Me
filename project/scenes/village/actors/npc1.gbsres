@@ -39,9 +39,8 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "The village has\nbeen going \nthrough some",
-                "supernatural\nphenomenons. OwO\nI heard rumors",
-                "about talking\nbats and \nvampires UwU."
+                "Why did those \ntrees randomly\nfall...",
+                "Must be the work\nof vampires..."
               ],
               "__section": "text",
               "avatarId": "18613218-76e5-48a1-84df-d9ff513844ad",
@@ -69,7 +68,7 @@
                 "Erm, Vampires \naren't real"
               ],
               "__section": "text",
-              "avatarId": "",
+              "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
               "minHeight": 4,
               "maxHeight": 7,
               "textX": 1,
@@ -91,7 +90,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Shut the fuck \nup, Judas >\\\\<"
+                "Shut the fuck \nup, Judas."
               ],
               "__section": "text",
               "avatarId": "18613218-76e5-48a1-84df-d9ff513844ad",
@@ -118,7 +117,7 @@
             "command": "EVENT_TEXT",
             "args": {
               "text": [
-                "Am I pwetty? >.<"
+                "I'm weari-\nng a hat to \nhide these dumb\nfursuit tears."
               ],
               "__section": "text",
               "avatarId": "18613218-76e5-48a1-84df-d9ff513844ad",
@@ -145,7 +144,7 @@
               "variable": "L1",
               "items": 2,
               "option1": "give me some info",
-              "option2": "You're a cute girl",
+              "option2": "vampires are fake",
               "option3": "",
               "option4": "",
               "option5": "",
@@ -179,9 +178,9 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "I heaw thewe awe\nvampires \nwoaming da ",
-                      "village. I think\nthey'we past \nthe nowth path.",
-                      "Be caweful out\nthewe, Judas!\nUwU"
+                      "I hear there's a\ngoblet filled\nwith blood,",
+                      "located south of\nthe village. \nIt used to \nbelong to a\nvampire.",
+                      "no one can solve\nthe maze to get\nit, though."
                     ],
                     "__section": "text",
                     "avatarId": "18613218-76e5-48a1-84df-d9ff513844ad",
@@ -207,7 +206,7 @@
                   "args": {
                     "variable": "L0",
                     "items": 2,
-                    "option1": "Vampires are fake",
+                    "option1": "It's just red40",
                     "option2": "thanks",
                     "option3": "",
                     "option4": "",
@@ -269,7 +268,7 @@
                         "command": "EVENT_TEXT",
                         "args": {
                           "text": [
-                            "Take care, Meow!\nUwU OwO >.<"
+                            "Take care."
                           ],
                           "__section": "text",
                           "avatarId": "18613218-76e5-48a1-84df-d9ff513844ad",
@@ -300,7 +299,7 @@
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "Oh silly goose!\nI'm a boy! UwU"
+                      "Be fr"
                     ],
                     "__section": "text",
                     "avatarId": "18613218-76e5-48a1-84df-d9ff513844ad",
@@ -320,17 +319,62 @@
                     "closeDelayFrames": 30
                   },
                   "id": "7d7267ee-500c-4904-bb48-d8d5142c7123"
+                }
+              ]
+            },
+            "id": "b40289d9-fab2-4007-ab8f-14a579969315"
+          }
+        ]
+      },
+      "id": "141b5ecd-562a-4177-bd53-7286c44c02ec"
+    }
+  ],
+  "startScript": [
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "1"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": false,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "4"
                 },
+                "valueB": {
+                  "type": "number",
+                  "value": 2
+                }
+              },
+              "__collapseElse": true
+            },
+            "children": {
+              "true": [
                 {
                   "command": "EVENT_TEXT",
                   "args": {
                     "text": [
-                      "(There's a \nnoticeable bulge\ndown there)",
-                      "(He pulls out a\ncarrot from his\npants and starts",
-                      "munching on it.\nThe bulge is\ngone now.)"
+                      "Judas!"
                     ],
                     "__section": "text",
-                    "avatarId": "",
+                    "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
                     "minHeight": 4,
                     "maxHeight": 7,
                     "textX": 1,
@@ -346,18 +390,379 @@
                     "closeDelayTime": 0.5,
                     "closeDelayFrames": 30
                   },
-                  "id": "ec92847d-8b4a-4b56-81e5-63252373ccb2"
+                  "id": "b69acc69-4bd7-4027-b3ae-bb048cef697c"
+                },
+                {
+                  "command": "EVENT_ACTOR_EMOTE",
+                  "args": {
+                    "actorId": "player",
+                    "emoteId": "70a4ce25-1fe4-4ab1-aee9-21255e70fb76"
+                  },
+                  "id": "924c7f5f-da44-4359-9be4-83ede9754697"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "player",
+                    "direction": {
+                      "type": "direction",
+                      "value": "up"
+                    }
+                  },
+                  "id": "6d2ae534-f5cf-4660-b5c7-89acdadd8cec"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 27
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 19
+                    },
+                    "moveType": "horizontal",
+                    "useCollisions": true
+                  },
+                  "id": "3159c095-5fd4-4044-957b-a2b077aadf55"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "$self$",
+                    "direction": {
+                      "type": "direction",
+                      "value": "down"
+                    }
+                  },
+                  "id": "eddb71ed-51ed-494e-b399-aced2fbfd746"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "player",
+                    "x": {
+                      "type": "number",
+                      "value": 27
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 20
+                    },
+                    "moveType": "horizontal",
+                    "useCollisions": true
+                  },
+                  "id": "89d1a684-0ec2-430f-b1e0-ffb2f0b7f3fc"
+                },
+                {
+                  "command": "EVENT_WAIT",
+                  "args": {
+                    "time": 0.5,
+                    "frames": 30
+                  },
+                  "id": "62aa24c5-5caa-400b-923b-d99b021cbdbd"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "The sussy red\ntrees blocking",
+                      "the left side\nof the village",
+                      "seem to have \nmysteriously\nfallen over.",
+                      "And quite\nfrankly, your\nlife does not",
+                      "matter as much\nas everyone \nelse's. ",
+                      "So can you check\nwhat's going on?"
+                    ],
+                    "__section": "text",
+                    "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "39112a41-6821-4804-8d4e-d95db95934f3"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "4",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "516ca951-2251-472e-9c4d-4a9fd866e4ff"
                 }
-              ]
+              ],
+              "false": []
             },
-            "id": "b40289d9-fab2-4007-ab8f-14a579969315"
+            "id": "1052013c-2026-4a95-915a-608086829d09"
           }
-        ]
+        ],
+        "false": []
       },
-      "id": "141b5ecd-562a-4177-bd53-7286c44c02ec"
+      "id": "28b10559-778e-436a-b2bd-1349e492341c"
+    },
+    {
+      "command": "EVENT_IF",
+      "args": {
+        "condition": {
+          "type": "eq",
+          "valueA": {
+            "type": "variable",
+            "value": "5"
+          },
+          "valueB": {
+            "type": "number",
+            "value": 1
+          }
+        },
+        "__collapseElse": true,
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_IF",
+            "args": {
+              "condition": {
+                "type": "eq",
+                "valueA": {
+                  "type": "variable",
+                  "value": "4"
+                },
+                "valueB": {
+                  "type": "number",
+                  "value": 4
+                }
+              },
+              "__collapseElse": true,
+              "__collapse": true
+            },
+            "children": {
+              "true": [
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "player",
+                    "direction": {
+                      "type": "direction",
+                      "value": "right"
+                    }
+                  },
+                  "id": "63f3473d-5d81-4708-a9f0-6bb48f221030"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "player",
+                    "x": {
+                      "type": "number",
+                      "value": 6
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "moveType": "horizontal",
+                    "useCollisions": true
+                  },
+                  "id": "93606bed-a030-4f43-b106-92853ffade0b"
+                },
+                {
+                  "command": "EVENT_ACTOR_MOVE_TO",
+                  "args": {
+                    "actorId": "$self$",
+                    "x": {
+                      "type": "number",
+                      "value": 7
+                    },
+                    "y": {
+                      "type": "number",
+                      "value": 17
+                    },
+                    "moveType": "horizontal",
+                    "useCollisions": true
+                  },
+                  "id": "336a206d-49bf-422c-a3cd-c4e28b45e275"
+                },
+                {
+                  "command": "EVENT_ACTOR_SET_DIRECTION",
+                  "args": {
+                    "actorId": "$self$",
+                    "direction": {
+                      "type": "direction",
+                      "value": "left"
+                    }
+                  },
+                  "id": "877bfe67-381c-4f3a-b9d4-679cdc38f225"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Judas! Something\nreal spooky\nis happening.",
+                      "And it has \nnothing to do\nwith your mom's",
+                      "OnlyFans leak\nfor once."
+                    ],
+                    "__section": "text",
+                    "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "140abea4-1410-4966-8aca-f935bc779522"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Wait, my mom\nhas an onlyfans?"
+                    ],
+                    "__section": "text",
+                    "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "1e0af3ba-f2ef-4d6d-b716-fb3c2d71b248"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "That's besides\nthe point!",
+                      "The red trees\neast of the\nvillage have\nmysteriously",
+                      "disappeared.\nBe careful out\nthere for the",
+                      "vampires Judas!"
+                    ],
+                    "__section": "text",
+                    "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "177e0d28-37ee-423a-bf2c-08def596d98b"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "The only thing\nI need to be\ncareful about",
+                      "is getting \nbullied for my\nmom's leaked",
+                      "OnlyFans\naccount."
+                    ],
+                    "__section": "text",
+                    "avatarId": "ee5e4f1d-afe8-480f-bc4e-dead4b461eaa",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "f92ee899-b825-4d03-b319-2a010c56110a"
+                },
+                {
+                  "command": "EVENT_TEXT",
+                  "args": {
+                    "text": [
+                      "Trust me, Judas,\nyou were getting\nbullied long\nbefore that."
+                    ],
+                    "__section": "text",
+                    "avatarId": "33a7ce88-9dfb-4b0d-b17f-7cf25195dca5",
+                    "minHeight": 4,
+                    "maxHeight": 7,
+                    "textX": 1,
+                    "textY": 1,
+                    "textHeight": 5,
+                    "position": "bottom",
+                    "clearPrevious": true,
+                    "showFrame": "true",
+                    "speedIn": -1,
+                    "speedOut": -1,
+                    "closeWhen": "key",
+                    "closeButton": "a",
+                    "closeDelayTime": 0.5,
+                    "closeDelayFrames": 30
+                  },
+                  "id": "a9e50025-43a6-473e-bff7-8da5dcf6290b"
+                },
+                {
+                  "command": "EVENT_SET_VALUE",
+                  "args": {
+                    "variable": "4",
+                    "value": {
+                      "type": "number",
+                      "value": 1
+                    }
+                  },
+                  "id": "31ef0b38-912c-4a45-b030-c184513085fe"
+                }
+              ],
+              "false": []
+            },
+            "id": "a6ede5e9-fa7f-4935-9176-a1404c7f8aa0"
+          }
+        ],
+        "false": []
+      },
+      "id": "f6912441-e904-43ca-9e7a-1689674e5b23"
     }
   ],
-  "startScript": [],
   "updateScript": [
     {
       "command": "EVENT_WAIT",

@@ -1,10 +1,10 @@
 {
   "_resourceType": "actor",
-  "id": "8c9b59a5-a99e-4d19-90c5-9debc59bbe26",
-  "name": "Porgan Jeterson",
+  "id": "a4274c52-586e-48ca-9878-2ac82655d299",
+  "name": "",
   "frame": 0,
   "animate": false,
-  "spriteSheetId": "d9e89906-b8f1-48ed-ad77-2cc373e099db",
+  "spriteSheetId": "581d34d0-9591-4e6e-a609-1d94f203b0cd",
   "prefabId": "",
   "direction": "down",
   "moveSpeed": 1,
@@ -14,14 +14,14 @@
   "persistent": false,
   "collisionGroup": "",
   "prefabScriptOverrides": {},
-  "symbol": "actor_20",
+  "symbol": "actor_11",
   "script": [],
   "startScript": [],
   "updateScript": [],
   "hit1Script": [],
   "hit2Script": [],
   "hit3Script": [],
-  "x": 9,
-  "y": 28,
-  "_index": 3
+  "x": 12,
+  "y": 6,
+  "_index": 8
 }
